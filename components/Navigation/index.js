@@ -5,7 +5,7 @@ export default function Navigation(){
     className="top-nav"
     type="line"
     direction="hoz"
-    header={<span className="fusion">Next start</span>}
+    header={<span style={{fontSize: 16, fontFamily: 'black, MS yahei', fontWeight: 'bold', padding: '0 8px ', color: '#333', opacity: 0.8}}>Next start</span>}
     selectedKeys={[]}
   >
     <Nav.Item key="home"><Link href="/">Home</Link></Nav.Item>
