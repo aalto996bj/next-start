@@ -16,7 +16,6 @@ const useRequest = (URL) => {
 
     init();
   }, []);
-
   return [data, loading];
 };
 

@@ -10,7 +10,7 @@ export default function VideoLists() {
     const [comedyMovies, comedyMoviesLoading] = useRequest(videoGenres.ComedyMovies);
     const [horrorMovies, horrorMoviesLoading] = useRequest(videoGenres.HorrorMovies);
     const [romanceMovies, romanceMoviesLoading] = useRequest(videoGenres.RomanceMovies);
-    const [documentaries, documentariesLoading] = useRequest(videoGenres.Documentaries);
+    // const [documentaries, documentariesLoading] = useRequest(videoGenres.Documentaries);
 
     return (
         <div className="container">
@@ -19,43 +19,49 @@ export default function VideoLists() {
                     isLoading={netflixOriginalsLoading}
                     isNetflixMovies={true}
                     title='Netflix Originals'
-                    videos={netflixOriginals.results}
+                    videos={!netflixOriginalsLoading ? netflixOriginals.results : []}
                 />
                 <DisplayVideo
                     isLoading={trendingLoading}
+                    isNetflixMovies={false}
                     title='Trending'
-                    videos={trending.results}
+                    videos={!trendingLoading ? trending.results : []}
                 />
                 <DisplayVideo
                     isLoading={topRatedLoading}
+                    isNetflixMovies={false}
                     title='Top Rated'
-                    videos={topRated.results}
+                    videos={!topRatedLoading ? topRated.results : []}
                 />
                 <DisplayVideo
                     isLoading={actionMoviesLoading}
+                    isNetflixMovies={false}
                     title='Action Movies'
-                    videos={actionMovies.results}
+                    videos={!actionMoviesLoading ? actionMovies.results : []}
                 />
                 <DisplayVideo
                     isLoading={comedyMoviesLoading}
+                    isNetflixMovies={false}
                     title='Comedy'
-                    videos={comedyMovies.results}
+                    videos={!comedyMoviesLoading ? comedyMovies.results : []}
                 />
                 <DisplayVideo
                     isLoading={horrorMoviesLoading}
                     title='Horror Movies'
-                    videos={horrorMovies.results}
+                    videos={!horrorMoviesLoading ? horrorMovies.results : []}
                 />
                 <DisplayVideo
                     isLoading={romanceMoviesLoading}
+                    isNetflixMovies={false}
                     title='Romance'
-                    videos={romanceMovies.results}
+                    videos={!romanceMoviesLoading ? romanceMovies.results : []}
                 />
-                <DisplayVideo
+                {/* <DisplayVideo
                     isLoading={documentariesLoading}
+                    isNetflixMovies={false}
                     title='Documentaries'
-                    videos={documentaries.results}
-                />
+                    videos={!documentariesLoading ? documentaries.results : []}
+                /> */}
             </div>
         </div>
     )

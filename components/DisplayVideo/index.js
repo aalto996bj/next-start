@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { FreeMode, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Slider } from '@alifd/next';
 import useWindowSize from '../../hooks/useWindowSize';
 import styles from './index.module.css';
 import 'swiper/css';
@@ -19,7 +20,7 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
             {!isLoading ?
             <div className="loaded">
                 <h1>{title}</h1>
-                <Swiper
+                {/* <Swiper
                     navigation={true}
                     grabCursor={false}
                     loop={true}
@@ -73,7 +74,39 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                 )
                             }
                         })}
-                </Swiper>
+                </Swiper> */}
+                <Slider 
+                    className={styles.center}
+                    arrowPosition="outer"
+                    dots={true}
+                    infinite={true}
+                    slidesToShow={5}
+                    slidesToScroll={2}
+                    autoplay={true}
+                    autoplaySpeed={4000}
+                    pauseOnHover={true}
+                    centerMode={true}
+                >
+                    {videos &&
+                        videos.map((video, idx) => {
+                            if (video.poster_path !== null && video.backdrop_path !== null) {
+                                let videoImageUrl = isNetflixMovies
+                                    ? `https://image.tmdb.org/t/p/original/${video.poster_path}`
+                                    : `https://image.tmdb.org/t/p/w500/${video.backdrop_path}`
+
+                                return (
+                                    <img
+                                        key={idx}
+                                        className={styles.img}
+                                        height={isNetflixMovies ? 360 : 165}
+                                        width={isNetflixMovies ? 240 : 300}
+                                        src={videoImageUrl}
+                                        alt='opps...'
+                                    />
+                                )
+                            }
+                        })}
+                </Slider>
             </div>
             :
             <h1 className="loading">{title} is loading...</h1>
