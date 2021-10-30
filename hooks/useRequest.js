@@ -1,9 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default (URL) => {
+const useRequest = (URL) => {
   // const [data,dispatch] = useReducer(dataReducer,[])
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   useEffect(() => {
     setLoading(true);
@@ -16,5 +16,8 @@ export default (URL) => {
 
     init();
   }, []);
-  return {data, loading};
+
+  return [data, loading];
 };
+
+export default useRequest;
