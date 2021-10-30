@@ -1,4 +1,3 @@
-@import '@alifd/next/dist/next.css';
 html,
 body {
   padding: 0;
@@ -14,4 +13,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.app_content {
+  padding: 0 68px;
 }
