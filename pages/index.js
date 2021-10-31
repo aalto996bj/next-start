@@ -1,5 +1,5 @@
 import Navigation from "../components/Navigation";
-import Content from "../components/VideoList/Content";
+import VideoLists from "./video/VideoLists";
 import { useRouter } from 'next/router';
 
 export default function Home(){
@@ -8,8 +8,8 @@ export default function Home(){
   return (
   <div className="app_container home_page">
     <Navigation />
-    <div className='main-content'>
-      <Content />
+    <div className="content">
+      <VideoLists />
     </div>
   </div>)
 }
