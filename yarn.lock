@@ -984,10 +984,22 @@ dom-helpers@^3.4.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
+dom7@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/dom7/download/dom7-4.0.1.tgz?cache=0&sync_timestamp=1635331808773&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdom7%2Fdownload%2Fdom7-4.0.1.tgz#821209df1bfdf97dd82b5156e50f7cb66b3f166c"
+  integrity sha1-ghIJ3xv9+X3YK1FW5Q98tms/Fmw=
+  dependencies:
+    ssr-window "^4.0.0"
+
 domain-browser@4.19.0:
   version "4.19.0"
   resolved "https://registry.nlark.com/domain-browser/download/domain-browser-4.19.0.tgz?cache=0&sync_timestamp=1627591557212&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdomain-browser%2Fdownload%2Fdomain-browser-4.19.0.tgz#1093e17c0a17dbd521182fe90d49ac1370054af1"
   integrity sha1-EJPhfAoX29UhGC/pDUmsE3AFSvE=
+
+dotenv@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.nlark.com/dotenv/download/dotenv-10.0.0.tgz?cache=0&sync_timestamp=1621628681571&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdotenv%2Fdownload%2Fdotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+  integrity sha1-PUInuPuV+BCWzdK2ZlP7LHCFuoE=
 
 electron-to-chromium@^1.3.723:
   version "1.3.884"
@@ -1425,6 +1437,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+
+fs@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.npm.taobao.org/fs/download/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
 
 fsevents@~2.3.1:
   version "2.3.2"
@@ -2755,6 +2772,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
+ssr-window@^4.0.0, ssr-window@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/ssr-window/download/ssr-window-4.0.1.tgz?cache=0&sync_timestamp=1635331808749&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fssr-window%2Fdownload%2Fssr-window-4.0.1.tgz#514bf2ca81952f63fe88e8b0c623a23f90f7feb3"
+  integrity sha1-UUvyyoGVL2P+iOiwxiOiP5D3/rM=
+
 stacktrace-parser@0.1.10:
   version "0.1.10"
   resolved "https://registry.npm.taobao.org/stacktrace-parser/download/stacktrace-parser-0.1.10.tgz#29fb0cae4e0d0b85155879402857a1639eb6051a"
@@ -2909,6 +2931,14 @@ supports-color@^8.0.0:
   integrity sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw=
   dependencies:
     has-flag "^4.0.0"
+
+swiper@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.npmmirror.com/swiper/download/swiper-7.2.0.tgz?cache=0&sync_timestamp=1635331808886&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fswiper%2Fdownload%2Fswiper-7.2.0.tgz#aae2bb7632798467abd5c1ab3e2441598a70dbd7"
+  integrity sha1-quK7djJ5hGer1cGrPiRBWYpw29c=
+  dependencies:
+    dom7 "^4.0.1"
+    ssr-window "^4.0.1"
 
 table@^6.0.9:
   version "6.7.2"
