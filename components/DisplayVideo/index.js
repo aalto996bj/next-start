@@ -92,6 +92,7 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                     autoplaySpeed={4000}
                     pauseOnHover={true}
                     centerMode={true}
+                    lazyLoad={true}
                 >
                     {videos &&
                         videos.map((video, idx) => {
@@ -115,7 +116,7 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                             src={videoImageUrl}
                                             height={isNetflixMovies ? 360 : 165}
                                             width={isNetflixMovies ? 240 : 300}
-                                            loading='lazy'
+                                            // loading='lazy'
                                             alt='opps...'
                                         />
                                     </DIV>

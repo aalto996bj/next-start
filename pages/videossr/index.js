@@ -1,8 +1,14 @@
 // 
 import Navigation from "../../components/Navigation";
-import DisplayVideo from '../../components/DisplayVideo';
+// import DisplayVideo from '../../components/DisplayVideo';
 import { useRouter } from 'next/router';
+import dynamic from 'next/dynamic'
 import * as videoGenres from '../api/videos';
+
+const DisplayVideo = dynamic(
+    () => import('../../components/DisplayVideo'),
+    { ssr: false }
+)
 
 export default function VideoSSR({ videoData }) {
     const router = useRouter()
@@ -11,7 +17,7 @@ export default function VideoSSR({ videoData }) {
     return (
         <div className="container">
             <Navigation />
-            <div className="videoShowcase">
+            <div className="video_content">
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={true}
