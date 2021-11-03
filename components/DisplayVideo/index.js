@@ -12,7 +12,7 @@ import 'swiper/css';
 // install Swiper components
 SwiperCore.use([FreeMode, Navigation, Pagination, Scrollbar, A11y])
 
-const Img = styled.img`
+const DIV = styled.div`
     margin: 5px;
     border-radius: 10px;
     `
@@ -101,14 +101,24 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                     : `https://image.tmdb.org/t/p/w500/${video.backdrop_path}`
 
                                 return (
-                                    <Img
-                                        key={idx}
-                                        // className={styles.img}
-                                        height={isNetflixMovies ? 360 : 165}
-                                        width={isNetflixMovies ? 240 : 300}
-                                        src={videoImageUrl}
-                                        alt='opps...'
-                                    />
+                                    // <Img
+                                    //     key={idx}
+                                    //     // className={styles.img}
+                                    //     height={isNetflixMovies ? 360 : 165}
+                                    //     width={isNetflixMovies ? 240 : 300}
+                                    //     src={videoImageUrl}
+                                    //     alt='opps...'
+                                    // />
+                                    <DIV key={video.id}>
+                                        <Image
+                                            key={video.id}
+                                            src={videoImageUrl}
+                                            height={isNetflixMovies ? 360 : 165}
+                                            width={isNetflixMovies ? 240 : 300}
+                                            loading='lazy'
+                                            alt='opps...'
+                                        />
+                                    </DIV>
                                 )
                             }
                         })}
