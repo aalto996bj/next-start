@@ -10,6 +10,7 @@ export default function Navigation(){
   >
     <Nav.Item key="home"><Link href="/">Home</Link></Nav.Item>
     <Nav.Item key="video"><Link href="/video">Videos</Link></Nav.Item>
+    <Nav.Item key="video-ssr"><Link href="/videossr">Video with SSR</Link></Nav.Item>
   </Nav>
 } 
   
