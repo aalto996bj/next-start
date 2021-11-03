@@ -6,10 +6,16 @@ import SwiperCore, { FreeMode, Navigation, Pagination, Scrollbar, A11y } from 's
 import { Slider } from '@alifd/next';
 import useWindowSize from '../../hooks/useWindowSize';
 import styles from './index.module.css';
+import styled from 'styled-components'
 import 'swiper/css';
 
 // install Swiper components
 SwiperCore.use([FreeMode, Navigation, Pagination, Scrollbar, A11y])
+
+const Img = styled.img`
+    margin: 5px;
+    border-radius: 10px;
+    `
 
 const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
     const windowSize = useWindowSize();
@@ -95,9 +101,9 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                     : `https://image.tmdb.org/t/p/w500/${video.backdrop_path}`
 
                                 return (
-                                    <img
+                                    <Img
                                         key={idx}
-                                        className={styles.img}
+                                        // className={styles.img}
                                         height={isNetflixMovies ? 360 : 165}
                                         width={isNetflixMovies ? 240 : 300}
                                         src={videoImageUrl}
