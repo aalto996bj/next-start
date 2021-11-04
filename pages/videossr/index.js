@@ -4,34 +4,34 @@ import Navigation from "../../components/Navigation";
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic'
 import * as videoGenres from '../api/videos';
-import fs from 'fs';
+// import fs from 'fs';
 
-function saveVideoData(data) {
-    const genres = ['NetflixOriginals', 'Trending', 'TopRated', 'ActionMovies', 'ComedyMovies', 'HorrorMovies', 'RomanceMovies', 'Documentaries'];
-    const videoData = {};
-    for (let i = 0; i < genres.length; i++) {
-        const genreData = [];
-        for (let j = 0; j < data[i].length; j++) {
-            genreData.push({
-                name: data[i][j].name,
-                backdrop_path: data[i][j].backdrop_path,
-                poster_path: data[i][j].poster_path,
-                genre: genres[i],
-                id: data[i][j].id,
-                popularity: data[i][j].popularity,
-                overview: data[i][j].overview,
-                voter_average: data[i][j].voter_average,
-                vote_count: data[i][j].vote_count
-            })
-        }
-        videoData[genres[i]] = genreData;
-    }
-    fs.writeFile("videoData.json", JSON.stringify(videoData), function (err) {
-        if (err) throw err;
-            console.log('complete');
-        }
-    );
-}
+// function saveVideoData(data) {
+//     const genres = ['NetflixOriginals', 'Trending', 'TopRated', 'ActionMovies', 'ComedyMovies', 'HorrorMovies', 'RomanceMovies', 'Documentaries'];
+//     const videoData = {};
+//     for (let i = 0; i < genres.length; i++) {
+//         const genreData = [];
+//         for (let j = 0; j < data[i].length; j++) {
+//             genreData.push({
+//                 name: data[i][j].name,
+//                 backdrop_path: data[i][j].backdrop_path,
+//                 poster_path: data[i][j].poster_path,
+//                 genre: genres[i],
+//                 id: data[i][j].id,
+//                 popularity: data[i][j].popularity,
+//                 overview: data[i][j].overview,
+//                 voter_average: data[i][j].voter_average,
+//                 vote_count: data[i][j].vote_count
+//             })
+//         }
+//         videoData[genres[i]] = genreData;
+//     }
+//     fs.writeFile("videoData.json", JSON.stringify(videoData), function (err) {
+//         if (err) throw err;
+//             console.log('complete');
+//         }
+//     );
+// }
 
 const DisplayVideo = dynamic(
     () => import('../../components/DisplayVideo'),

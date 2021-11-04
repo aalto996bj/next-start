@@ -92,7 +92,7 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                     autoplaySpeed={4000}
                     pauseOnHover={true}
                     centerMode={true}
-                    lazyLoad={true}
+                    // lazyLoad={true}
                 >
                     {videos &&
                         videos.map((video, idx) => {

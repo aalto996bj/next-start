@@ -16,7 +16,17 @@ const getVideoAreaSize = (win) => {
   return {}
 }
 
-export default function VideoDetail(){
+// // This gets called on every request
+// export async function getServerSideProps() {
+//   // Fetch data from external API
+//   const res = await fetch(`https://617d21b01eadc500171363e4.mockapi.io/api/comments/Comments`)
+//   const comments = await res.json()
+
+//   // Pass data to the page via props
+//   return { props: { comments } }
+// }
+
+export default function VideoDetail(props){
   const router = useRouter()
   const size = useWindowSize()
   return (<div className="app_container video_detail">
@@ -24,7 +34,7 @@ export default function VideoDetail(){
     { 
       !!router.query.params ? <div className="app_content">
         <VideoBox size={getVideoAreaSize(size)} params={router.query.params}/>
-        <CommentBox size={getVideoAreaSize(size)} params={router.query.params}/>
+        <CommentBox size={getVideoAreaSize(size)} params={router.query.params} />
       </div> 
         :
       <Error />
