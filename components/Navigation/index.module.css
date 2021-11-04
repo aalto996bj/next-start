@@ -1,0 +1,14 @@
+/* .top_nav {
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+} */
+
+.top_nav {
+	position: relative;
+	height: 3000px;
+	width: 100%;
+  background: white !important;
+  z-index: 1;
+}
