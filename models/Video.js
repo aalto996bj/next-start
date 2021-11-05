@@ -32,12 +32,5 @@ const VideoSchema = new mongoose.Schema({
     },
 })
 
-VideoSchema.set('toJSON', {
-    transform: (document, returnedObject) => {
-        // returnedObject.id = returnedObject._id.toString()
-        delete returnedObject._id
-        delete returnedObject.__v
-    }
-})
 
 export default mongoose.models.Video || mongoose.model('Video', VideoSchema)

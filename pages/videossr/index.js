@@ -44,7 +44,7 @@ export default function VideoSSR({ videoData }) {
     const router = useRouter()
     // console.log(router)
     // console.log(conn)
-    console.log("videoData:", videoData);
+    // console.log("videoData:", videoData);
     // console.log("id:", id);
     return (
         <div className="container">
@@ -109,14 +109,10 @@ export async function getServerSideProps(context) {
     //     const data = await resp.json();
     //     return data.results;
     // }));
-    // const res = await fetch("http://localhost:3000/api/videos/video_list");
-    // const videoData = await res.json();
+    const res = await fetch("http://localhost:3000/api/videos/video_list");
+    const videoData = await res.json();
     // const idRes = await fetch("http://localhost:3000/api/videos/93405");
     // const id = await idRes.json();
-
-    await dbConnect();
-
-    const videoData = await Video.find({})
     // saveVideoData(videoData);
     return { props: { videoData } };
 }
