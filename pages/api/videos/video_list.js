@@ -1,9 +1,14 @@
+// import clientPromise from '../../../lib/mongodb'
 import dbConnect from '../../../lib/dbConnect'
 import Video from '../../../models/Video'
 
 
 export default async function handler(req, res) {
     const { method } = req
+
+    // const client = await clientPromise
+    //
+    // const db = client.db("videos")
 
     await dbConnect()
 
