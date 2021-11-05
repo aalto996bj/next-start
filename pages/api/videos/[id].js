@@ -13,11 +13,14 @@ export default async function handler(req, res) {
         case 'GET' /* Get a model by its ID */:
             try {
                 const video = await Video.findById(id)
+                console.log("query id:", id)
                 if (!video) {
                     return res.status(400).json({ success: false })
                 }
+                console.log("video:", video)
                 res.status(200).json({ success: true, data: video })
             } catch (error) {
+                console.log(error)
                 res.status(400).json({ success: false })
             }
             break

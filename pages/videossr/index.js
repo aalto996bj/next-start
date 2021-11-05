@@ -38,15 +38,16 @@ const DisplayVideo = dynamic(
     { ssr: false }
 )
 
-export default function VideoSSR({ videoData }) {
+export default function VideoSSR({ videoData, id }) {
     const router = useRouter()
     console.log(router)
-    // console.log(videoData);
+    console.log("videoData:", videoData);
+    console.log("id:", id);
     return (
         <div className="container">
             <Navigation />
             <div className="video_content">
-                <DisplayVideo
+                {/* <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={true}
                     title='Netflix Originals'
@@ -86,7 +87,7 @@ export default function VideoSSR({ videoData }) {
                     isNetflixMovies={false}
                     title='Romance'
                     videos={videoData[6]}
-                />
+                /> */}
                 {/* <DisplayVideo
                     isLoading={documentariesLoading}
                     isNetflixMovies={false}
@@ -99,14 +100,18 @@ export default function VideoSSR({ videoData }) {
 }
 
 export async function getServerSideProps(context) {
-    const urls = Object.values(videoGenres);
-    const videoData = await Promise.all(urls.map(async (url) => {
-        const resp = await fetch(url);
-        const data = await resp.json();
-        return data.results;
-    }));
+    // const urls = Object.values(videoGenres);
+    // const videoData = await Promise.all(urls.map(async (url) => {
+    //     const resp = await fetch(url);
+    //     const data = await resp.json();
+    //     return data.results;
+    // }));
+    const res = await fetch("http://localhost:3000/api/videos/video_list");
+    const videoData = await res.json();
+    const idRes = await fetch("http://localhost:3000/api/videos/93405");
+    const id = await idRes.json();
     // saveVideoData(videoData);
-    return { props: { videoData } };
+    return { props: { videoData, id } };
 }
 
 // export default function HomeSSR() {
