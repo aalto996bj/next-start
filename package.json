@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongoose": "^6.0.11",
     "@alifd/next": "^1.24.12",
     "axios": "^0.24.0",
     "moment": "^2.29.1",
