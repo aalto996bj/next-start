@@ -18,9 +18,9 @@ import * as videoGenres from '../api/videos';
 //                 poster_path: data[i][j].poster_path,
 //                 genre: genres[i],
 //                 id: data[i][j].id,
-//                 popularity: data[i][j].popularity,
+//                 // popularity: data[i][j].popularity,
 //                 overview: data[i][j].overview,
-//                 voter_average: data[i][j].voter_average,
+//                 vote_average: data[i][j].vote_average,
 //                 vote_count: data[i][j].vote_count
 //             })
 //         }
