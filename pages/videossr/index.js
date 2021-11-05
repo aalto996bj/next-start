@@ -4,6 +4,8 @@ import Navigation from "../../components/Navigation";
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic'
 import * as videoGenres from '../api/videos';
+import dbConnect from '../../lib/dbConnect'
+import Video from '../../models/Video'
 // import fs from 'fs';
 
 // function saveVideoData(data) {
@@ -35,19 +37,20 @@ import * as videoGenres from '../api/videos';
 
 const DisplayVideo = dynamic(
     () => import('../../components/DisplayVideo'),
-    { ssr: false }
+    { ssr: true }
 )
 
-export default function VideoSSR({ videoData, id }) {
+export default function VideoSSR({ videoData }) {
     const router = useRouter()
-    console.log(router)
+    // console.log(router)
+    // console.log(conn)
     console.log("videoData:", videoData);
-    console.log("id:", id);
+    // console.log("id:", id);
     return (
         <div className="container">
             <Navigation />
             <div className="video_content">
-                {/* <DisplayVideo
+                <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={true}
                     title='Netflix Originals'
@@ -87,7 +90,7 @@ export default function VideoSSR({ videoData, id }) {
                     isNetflixMovies={false}
                     title='Romance'
                     videos={videoData[6]}
-                /> */}
+                />
                 {/* <DisplayVideo
                     isLoading={documentariesLoading}
                     isNetflixMovies={false}
@@ -106,12 +109,16 @@ export async function getServerSideProps(context) {
     //     const data = await resp.json();
     //     return data.results;
     // }));
-    const res = await fetch("http://localhost:3000/api/videos/video_list");
-    const videoData = await res.json();
-    const idRes = await fetch("http://localhost:3000/api/videos/93405");
-    const id = await idRes.json();
+    // const res = await fetch("http://localhost:3000/api/videos/video_list");
+    // const videoData = await res.json();
+    // const idRes = await fetch("http://localhost:3000/api/videos/93405");
+    // const id = await idRes.json();
+
+    await dbConnect();
+
+    const videoData = await Video.find({})
     // saveVideoData(videoData);
-    return { props: { videoData, id } };
+    return { props: { videoData } };
 }
 
 // export default function HomeSSR() {
