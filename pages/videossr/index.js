@@ -4,8 +4,6 @@ import Navigation from "../../components/Navigation";
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic'
 import * as videoGenres from '../api/videos';
-import dbConnect from '../../lib/dbConnect'
-import Video from '../../models/Video'
 // import fs from 'fs';
 
 // function saveVideoData(data) {
@@ -40,11 +38,12 @@ const DisplayVideo = dynamic(
     { ssr: true }
 )
 
-export default function VideoSSR({ videoData }) {
+export default function VideoSSR({ host, videoData }) {
     const router = useRouter()
     // console.log(router)
-    // console.log(conn)
-    // console.log("videoData:", videoData);
+    console.log(host);
+    videoData = videoData.data
+    // console.log("videoData:", videoData.slice(0,20));
     // console.log("id:", id);
     return (
         <div className="container">
@@ -54,42 +53,42 @@ export default function VideoSSR({ videoData }) {
                     isLoading={false}
                     isNetflixMovies={true}
                     title='Netflix Originals'
-                    videos={videoData[0]}
+                    videos={videoData.slice(0, 20)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Trending'
-                    videos={videoData[1]}
+                    videos={videoData.slice(21, 40)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Top Rated'
-                    videos={videoData[2]}
+                    videos={videoData.slice(41, 60)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Action Movies'
-                    videos={videoData[3]}
+                    videos={videoData.slice(61, 80)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Comedy'
-                    videos={videoData[4]}
+                    videos={videoData.slice(81, 100)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     title='Horror Movies'
-                    videos={videoData[5]}
+                    videos={videoData.slice(101, 120)}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Romance'
-                    videos={videoData[6]}
+                    videos={videoData.slice(121, 140)}
                 />
                 {/* <DisplayVideo
                     isLoading={documentariesLoading}
@@ -102,20 +101,24 @@ export default function VideoSSR({ videoData }) {
     )
 }
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps({ req }) {
     // const urls = Object.values(videoGenres);
     // const videoData = await Promise.all(urls.map(async (url) => {
     //     const resp = await fetch(url);
     //     const data = await resp.json();
     //     return data.results;
     // }));
+    const host = req.host + '/api/videos / video_list';
     const res = await fetch("http://localhost:3000/api/videos/video_list");
+    // const res = await fetch(host + "/api/videos/video_list");
     const videoData = await res.json();
     // const idRes = await fetch("http://localhost:3000/api/videos/93405");
     // const id = await idRes.json();
     // saveVideoData(videoData);
-    return { props: { videoData } };
+    return { props: { host, videoData } };
 }
+
+
 
 // export default function HomeSSR() {
 //     const router = useRouter()
