@@ -108,7 +108,7 @@ export async function getServerSideProps({ req }) {
     //     const data = await resp.json();
     //     return data.results;
     // }));
-    const host = req.host + '/api/videos / video_list';
+    const host = req.host + '/api/videos/video_list';
     const res = await fetch("http://localhost:3000/api/videos/video_list");
     // const res = await fetch(host + "/api/videos/video_list");
     const videoData = await res.json();
