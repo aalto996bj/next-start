@@ -1,7 +1,7 @@
-const { createServer } = require('http')
+const http = require('http')
+var https = require('https');
 const { parse } = require('url')
 const next = require('next')
-var https = require('https');
 var fs = require('fs');
 
 const dev = process.env.NODE_ENV !== 'production'
@@ -14,12 +14,12 @@ if (!dev) {
 }
 
 var options = {
-  key: fs.readFileSync('private.key.pem'),
-  cert: fs.readFileSync('domain.cert.pem'),
+  key: fs.readFileSync('./private.key.pem'),
+  cert: fs.readFileSync('./domain.cert.pem'),
 };
 
 app.prepare().then(() => {
-  createServer(options, (req, res) => {
+  http.createServer((req, res) => {
     // Be sure to pass `true` as the second argument to `url.parse`.
     // This tells it to parse the query portion of the URL.
     const parsedUrl = parse(req.url, true)
@@ -36,4 +36,24 @@ app.prepare().then(() => {
     if (err) throw err
     console.log(`> Ready on http://localhost:${port}`)
   })
+
+  if (!dev) {
+    https.createServer(options, (req, res) => {
+      // Be sure to pass `true` as the second argument to `url.parse`.
+      // This tells it to parse the query portion of the URL.
+      const parsedUrl = parse(req.url, true)
+      const { pathname, query } = parsedUrl
+  
+      if (pathname === '/video') {
+        app.render(req, res, '/video', query)
+      } else if (pathname === '/videossr') {
+        app.render(req, res, '/videossr', query)
+      } else {
+        handle(req, res, parsedUrl)
+      }
+    }).listen(443, (err) => {
+      if (err) throw err
+      console.log(`> Ready on https://localhost:${port}`)
+    })
+  }
 })
