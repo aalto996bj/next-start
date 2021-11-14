@@ -14,7 +14,7 @@ if (!dev) {
 }
 
 var options = {
-  key: fs.readFileSync('publick.key.pem'),
+  key: fs.readFileSync('private.key.pem'),
   cert: fs.readFileSync('domain.cert.pem'),
 };
 
