@@ -109,10 +109,10 @@ export async function getServerSideProps({ req }) {
     //     return data.results;
     // }));
     const host = req.host + '/api/videos / video_list';
-    const res = await fetch("http://localhost:3000/api/videos/video_list");
+    const res = await fetch("http://localhost:80/api/videos/video_list");
     // const res = await fetch(host + "/api/videos/video_list");
     const videoData = await res.json();
-    // const idRes = await fetch("http://localhost:3000/api/videos/93405");
+    // const idRes = await fetch("http://localhost:80/api/videos/93405");
     // const id = await idRes.json();
     // saveVideoData(videoData);
     return { props: { host, videoData } };
