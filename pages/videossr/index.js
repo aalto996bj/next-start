@@ -53,41 +53,48 @@ export default function VideoSSR({ host, videoData }) {
                     isNetflixMovies={true}
                     title='Netflix Originals'
                     videos={videoData.slice(0, 20)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Trending'
                     videos={videoData.slice(21, 40)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Top Rated'
                     videos={videoData.slice(41, 60)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Action Movies'
                     videos={videoData.slice(61, 80)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Comedy'
                     videos={videoData.slice(81, 100)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     title='Horror Movies'
                     videos={videoData.slice(101, 120)}
+                    ssr={true}
                 />
                 <DisplayVideo
                     isLoading={false}
                     isNetflixMovies={false}
                     title='Romance'
                     videos={videoData.slice(121, 140)}
+                    ssr={true}
                 />
                 {/* <DisplayVideo
                     isLoading={documentariesLoading}

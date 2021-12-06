@@ -1,14 +1,14 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const useRequest = (URL) => {
+const useRequest = (URL, config={}) => {
   // const [data,dispatch] = useReducer(dataReducer,[])
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   useEffect(() => {
     setLoading(true);
     async function init() {
-      await axios.get(URL).then((res) => {
+      await axios.get(URL, config).then((res) => {
         setData(res.data);
       });
       setLoading(false);

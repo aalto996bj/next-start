@@ -24,7 +24,7 @@ const DIV = styled.div`
     border-radius: 10px;
     `
 
-const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
+const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos, ssr }) => {
     const router = useRouter()
     const windowSize = useWindowSize();
     const { width } = windowSize;
@@ -62,7 +62,7 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                     <div key={video.id}>
                                         <Img
                                             className={styles.cursorPointer}
-                                            onClick={()=>router.push(`video/${video.id}`)}
+                                            onClick={()=>router.push(ssr ? `videossr/${video.id}` :`video/${video.id}`)}
                                             height={isNetflixMovies ? 360 : 165}
                                             width={isNetflixMovies ? 240 : 300}
                                             src={videoImageUrl}
