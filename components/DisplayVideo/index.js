@@ -25,6 +25,7 @@ const DIV = styled.div`
 const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
     const windowSize = useWindowSize();
     const { width } = windowSize;
+    const slidesToShow = width >= 1400 ? (isNetflixMovies ? 5 : 4) : width >= 1170 ? (isNetflixMovies ? 4 : 3) : width >= 940 ? (isNetflixMovies ? 3 : 2) : (isNetflixMovies ? 2 : 1);
 
     return (
         <>
@@ -89,14 +90,16 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                 <Slider 
                     className={styles.center}
                     arrowPosition="outer"
-                    dots={true}
+                    dots={false}
                     infinite={true}
-                    slidesToShow={5}
-                    slidesToScroll={2}
+                    slidesToShow={slidesToShow}
+                    slidesToScroll={1}
                     autoplay={true}
                     autoplaySpeed={4000}
                     pauseOnHover={true}
                     centerMode={true}
+                    centerPadding="60px"
+                    speed={500}
                     // lazyLoad={true}
                 >
                     {videos &&
@@ -107,23 +110,20 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                     : `https://image.tmdb.org/t/p/w500/${video.backdrop_path}`
 
                                 return (
-                                    // <Img
-                                    //     key={idx}
-                                    //     // className={styles.img}
-                                    //     height={isNetflixMovies ? 360 : 165}
-                                    //     width={isNetflixMovies ? 240 : 300}
-                                    //     src={videoImageUrl}
-                                    //     alt='opps...'
-                                    // />
-                                    <DIV key={video.id}>
-                                        <Image
-                                            src={videoImageUrl}
+                                    <div key={video.id}>
+                                        <Img
                                             height={isNetflixMovies ? 360 : 165}
                                             width={isNetflixMovies ? 240 : 300}
-                                            // loading='lazy'
+                                            src={videoImageUrl}
                                             alt='opps...'
-                                        />
-                                    </DIV>
+                                        /> <br />
+                                        <div className={isNetflixMovies ? styles.wrapNet : styles.wrap}>
+                                            <span>Name: {video.name}</span><br />
+                                            <span>Overview: {video.overview}</span><br />
+                                            <span>Rate: {video.vote_average}</span><br />
+                                            <span>Heat: {video.vote_count}</span><br />
+                                        </div>
+                                    </div>
                                 )
                             }
                         })}
