@@ -4,10 +4,6 @@ import { useEffect } from 'react'
 export default function VideoBox(props){
   console.log(props.params)
   const [data, loading] = useRequest(`https://api.pexels.com/videos/popular?per_page=1&page=2`, {headers: {'Authorization': '563492ad6f91700001000001d0eb52c325db4f8285144f26f11fc2c6'}})
-  useEffect(() => {
-    
-    console.log(data)
-  }, [])
 
   return <div className={styles.vid_box} >
     <div className={styles.vid_header}>
@@ -35,7 +31,6 @@ export default function VideoBox(props){
       { data?.videos?.length && 
         <video
           id="my-video"
-          class="video-js"
           controls
           preload="auto"
           width={Math.min(props.size.width, props.size.maxWidth)}
@@ -44,10 +39,10 @@ export default function VideoBox(props){
           autoPlay 
         >
           <source src={data.videos[0].video_files[0].link} type="video/mp4" />
-          <p class="vjs-no-js">
+          <p>
             To view this video please enable JavaScript, and consider upgrading to a
             web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            <a href="https://videojs.com/html5-video-support/" >supports HTML5 video</a>
           </p>
         </video>
       }

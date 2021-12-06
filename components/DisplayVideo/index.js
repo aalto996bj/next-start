@@ -71,7 +71,6 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos, ssr }) => {
                                         <div 
                                             className={isNetflixMovies ? styles.wrapNet : styles.wrap} 
                                             onClick={()=>router.push(`video/${video.id}`)}
-                                            className={styles.cursorPointer}
                                         >
                                             <span className={styles.videoTitle}>{video.name}</span><br />
                                             <div style={{width: isNetflixMovies ? 250 : 300, height:80, fontSize: 14, textAlign: 'justify', textJustify: 'inter-word'}} >
