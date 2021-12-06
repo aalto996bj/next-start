@@ -14,7 +14,7 @@ import useReference from "../../hooks/useReference";
 //         const genreData = [];
 //         for (let j = 0; j < data[i].length; j++) {
 //             genreData.push({
-//                 name: data[i][j].name,
+//                 name: data[i][j].name || data[i][j].title,
 //                 backdrop_path: data[i][j].backdrop_path,
 //                 poster_path: data[i][j].poster_path,
 //                 genre: genres[i],
@@ -109,7 +109,7 @@ export default function VideoSSR({ host, videoData }) {
 
 export async function getServerSideProps({ req }) {
     // const urls = Object.values(videoGenres);
-    // const videoData = await Promise.all(urls.map(async (url) => {
+    // const data = await Promise.all(urls.map(async (url) => {
     //     const resp = await fetch(url);
     //     const data = await resp.json();
     //     return data.results;
@@ -117,7 +117,7 @@ export async function getServerSideProps({ req }) {
     const host = req.headers.host + '/api/videos/video_list';
     const res = await fetch( 'http://'+ req.headers.host + "/api/videos/video_list");
     const videoData = await res.json();
-    // saveVideoData(videoData);
+    // saveVideoData(data);
     return { props: { host, videoData } };
 }
 

@@ -1,6 +1,26 @@
 {
     "NetflixOriginals": [
         {
+            "name": "Money Heist",
+            "backdrop_path": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+            "poster_path": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+            "genre": "NetflixOriginals",
+            "id": 71446,
+            "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+            "vote_average": 8.3,
+            "vote_count": 15338
+        },
+        {
+            "name": "Hellbound",
+            "backdrop_path": "/bfXTYu3oLtEUL0jAxgx7Jy56yHl.jpg",
+            "poster_path": "/5NYdSAnDVIXePrSG2dznHdiibMk.jpg",
+            "genre": "NetflixOriginals",
+            "id": 106651,
+            "overview": "Unearthly beings deliver bloody condemnations, sending individuals to hell and giving rise to a religious group founded on the idea of divine justice.",
+            "vote_average": 7.8,
+            "vote_count": 248
+        },
+        {
             "name": "Squid Game",
             "backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
             "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
@@ -8,27 +28,37 @@
             "id": 93405,
             "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
             "vote_average": 7.8,
-            "vote_count": 8514
+            "vote_count": 9296
+        },
+        {
+            "name": "Arcane: League of Legends",
+            "backdrop_path": "/rkB4LyZHo1NHXFEDHl9vSD9r1lI.jpg",
+            "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+            "genre": "NetflixOriginals",
+            "id": 94605,
+            "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+            "vote_average": 9.2,
+            "vote_count": 1038
+        },
+        {
+            "name": "Money Heist: From Tokyo to Berlin",
+            "backdrop_path": "/gk1enrMtCVABqJd4ujVwIIeswTT.jpg",
+            "poster_path": "/g0wLsOFpvK5nX5hsIAwXHrpnFLI.jpg",
+            "genre": "NetflixOriginals",
+            "id": 132719,
+            "overview": "The filmmakers and actors behind \"Money Heist\" characters like Tokyo and the Professor talk about the emotional and artistic process of filming Money Heist.",
+            "vote_average": 7.5,
+            "vote_count": 19
         },
         {
             "name": "Lucifer",
-            "backdrop_path": "/ccaZ3yyyC6rcMAQrlLZ51FpahNO.jpg",
+            "backdrop_path": "/ktDJ21QQscbMNQfPpZBsNORxdDx.jpg",
             "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
             "genre": "NetflixOriginals",
             "id": 63174,
             "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
             "vote_average": 8.5,
-            "vote_count": 10898
-        },
-        {
-            "name": "You",
-            "backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
-            "poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
-            "genre": "NetflixOriginals",
-            "id": 78191,
-            "overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
-            "vote_average": 8.2,
-            "vote_count": 1617
+            "vote_count": 11086
         },
         {
             "name": "Sex Education",
@@ -38,97 +68,67 @@
             "id": 81356,
             "overview": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
             "vote_average": 8.4,
-            "vote_count": 5025
+            "vote_count": 5151
         },
         {
-            "name": "Money Heist",
-            "backdrop_path": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
-            "poster_path": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+            "name": "Cobra Kai",
+            "backdrop_path": "/g63KmFgqkvXu6WKS23V56hqEidh.jpg",
+            "poster_path": "/yR9a9yZ1kAW0Xbl4NxQxPSMteEg.jpg",
             "genre": "NetflixOriginals",
-            "id": 71446,
-            "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
-            "vote_average": 8.3,
-            "vote_count": 14839
+            "id": 77169,
+            "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+            "vote_average": 8.1,
+            "vote_count": 3571
+        },
+        {
+            "name": "Lost in Space",
+            "backdrop_path": "/nB8Z2lDOOSpZgTRLUVYSJ74RPof.jpg",
+            "poster_path": "/y8NJnTXzb4rio9uvVYFVrXEMofU.jpg",
+            "genre": "NetflixOriginals",
+            "id": 75758,
+            "overview": "After crash-landing on an alien planet, the Robinson family fights against all odds to survive and escape. But they're surrounded by hidden dangers.",
+            "vote_average": 7.6,
+            "vote_count": 961
+        },
+        {
+            "name": "Jurassic World: Camp Cretaceous",
+            "backdrop_path": "/ToY3HnzQREeKIKLz5O9aboGDKy.jpg",
+            "poster_path": "/nkCbCmlwjwT6QL44DqG7qE9ch8H.jpg",
+            "genre": "NetflixOriginals",
+            "id": 93741,
+            "overview": "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island.",
+            "vote_average": 7.9,
+            "vote_count": 1397
         },
         {
             "name": "My Name",
-            "backdrop_path": "/4LZuFMhLivOSO7zuWAQ3RffMnnr.jpg",
+            "backdrop_path": "/yjsXtps0rw36UB8TomSjI4y4zvR.jpg",
             "poster_path": "/h9p1zxKzti35Aqe6xpwkP9NlG7p.jpg",
             "genre": "NetflixOriginals",
             "id": 110356,
             "overview": "Following her father's murder, a revenge-driven woman puts her trust in a powerful crime boss — and enters the police force under his direction.",
             "vote_average": 8.4,
-            "vote_count": 147
+            "vote_count": 282
         },
         {
-            "name": "The Five Juanas",
-            "backdrop_path": "/vFMvVG4KyMGwxOi9EB9JeIkLdvj.jpg",
-            "poster_path": "/iFffOCcrtf5mSoGKd2J31d2b5yg.jpg",
+            "name": "You",
+            "backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
+            "poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
             "genre": "NetflixOriginals",
-            "id": 133086,
-            "overview": "Five women with the same birthmark set out to unravel the truth about their pasts and discover a tragic web of lies spun by a powerful politician.",
-            "vote_average": 7.4,
-            "vote_count": 116
-        },
-        {
-            "name": "Another Life",
-            "backdrop_path": "/6ygiUWflbmz5p2LFc3COVHriQzK.jpg",
-            "poster_path": "/htazQ0cPoloL5SJ2bqOCKh9UTcc.jpg",
-            "genre": "NetflixOriginals",
-            "id": 79130,
-            "overview": "After a massive alien artifact lands on Earth, Niko Breckinridge leads an interstellar mission to track down its source and make first contact.",
-            "vote_average": 5.9,
-            "vote_count": 148
-        },
-        {
-            "name": "Maid",
-            "backdrop_path": "/yv5oliNUwu82JT1XUbz1WSKm18E.jpg",
-            "poster_path": "/4brWcSXdH31BZUTtRTHj2BYFe6M.jpg",
-            "genre": "NetflixOriginals",
-            "id": 111141,
-            "overview": "After fleeing an abusive relationship, a young mother finds a job cleaning houses and fights to provide a better future for her child.",
-            "vote_average": 7.9,
-            "vote_count": 190
-        },
-        {
-            "name": "Elite",
-            "backdrop_path": "/xcZfdO0x7sMLDUFV0qJOHxMJj45.jpg",
-            "poster_path": "/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
-            "genre": "NetflixOriginals",
-            "id": 76669,
-            "overview": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+            "id": 78191,
+            "overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
             "vote_average": 8.2,
-            "vote_count": 7678
+            "vote_count": 1745
         },
         {
-            "name": "The Snitch Cartel: Origins",
-            "backdrop_path": "/aGULNElJVpSru19WP2pUjopPX1U.jpg",
-            "poster_path": "/A17Rt6BLHno0puR1QXbsSKhBfA4.jpg",
+            "name": "Baki Hanma",
+            "backdrop_path": "/3Aj7j0xHXwGntChU1VaL9seBGIe.jpg",
+            "poster_path": "/k3HCQALcUyxebVZcfy57BIDYXUz.jpg",
             "genre": "NetflixOriginals",
-            "id": 128252,
-            "overview": "In Cali during the '60s and '70s, two brothers juggle family, romance and the joint pursuit of a burning ambition: to rule Colombia's drug industry.",
-            "vote_average": 7.9,
-            "vote_count": 187
-        },
-        {
-            "name": "Luis Miguel: The Series",
-            "backdrop_path": "/wkyzeBBKLhSg1Oqhky5yoiFF2hG.jpg",
-            "poster_path": "/34FaY8qpjBAVysSfrJ1l7nrAQaD.jpg",
-            "genre": "NetflixOriginals",
-            "id": 79008,
-            "overview": "The series dramatizes the life story of Mexican superstar singer Luis Miguel, who has captivated audiences in Latin America and beyond for decades.",
-            "vote_average": 8,
-            "vote_count": 512
-        },
-        {
-            "name": "Cobra Kai",
-            "backdrop_path": "/gL8myjGc2qrmqVosyGm5CWTir9A.jpg",
-            "poster_path": "/4CkQvdUAtoLW3qkjWi7t1MTnW7R.jpg",
-            "genre": "NetflixOriginals",
-            "id": 77169,
-            "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
-            "vote_average": 8.1,
-            "vote_count": 3530
+            "id": 129600,
+            "overview": "To gain the skills he needs to surpass his powerful father, Baki enters Arizona State Prison to take on the notorious inmate known as Mr. Unchained.",
+            "vote_average": 8.2,
+            "vote_count": 34
         },
         {
             "name": "Sex/Life",
@@ -138,47 +138,27 @@
             "id": 126280,
             "overview": "A woman's daring sexual past collides with her married-with-kids present when the bad-boy ex she can't stop fantasizing about crashes back into her life.",
             "vote_average": 7.2,
-            "vote_count": 737
+            "vote_count": 782
         },
         {
-            "name": "Maya and the Three",
-            "backdrop_path": "/vmLt0tC5KeLd4K5ASLG5s0Ho7op.jpg",
-            "poster_path": "/zUBixNeHU0cbSUH7JMktl9OMEMV.jpg",
+            "name": "Narcos: Mexico",
+            "backdrop_path": "/cxg6CzZl7D0oJrn2425WmgtJnva.jpg",
+            "poster_path": "/uYcZMiIIUv8NPebpqKbUGhf2M3y.jpg",
             "genre": "NetflixOriginals",
-            "id": 132141,
-            "overview": "A spirited princess with the heart of a warrior embarks on a mission to fulfill an ancient prophecy and save humanity from the wrath of vengeful gods.",
-            "vote_average": 8.2,
-            "vote_count": 52
-        },
-        {
-            "name": "The Chestnut Man",
-            "backdrop_path": "/fIXTetAsXkPO6UUUw85IU4oactf.jpg",
-            "poster_path": "/tdLJTZJ184PsO9QkK9aPeeAXLlo.jpg",
-            "genre": "NetflixOriginals",
-            "id": 127865,
-            "overview": "At a grisly murder scene sits a figurine made of chestnuts. From this creepy clue, two detectives hunt a killer linked to a politician's missing child.",
+            "id": 80968,
+            "overview": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
             "vote_average": 7.9,
-            "vote_count": 78
+            "vote_count": 812
         },
         {
-            "name": "Baki Hanma",
-            "backdrop_path": "/3tfgZt36SQ1FdbEV0YCLdzpkRn3.jpg",
-            "poster_path": "/k3HCQALcUyxebVZcfy57BIDYXUz.jpg",
+            "name": "Elite",
+            "backdrop_path": "/hNj7EzEQyttoPBpYlLTkATnIiab.jpg",
+            "poster_path": "/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
             "genre": "NetflixOriginals",
-            "id": 129600,
-            "overview": "To gain the skills he needs to surpass his powerful father, Baki enters Arizona State Prison to take on the notorious inmate known as Mr. Unchained.",
-            "vote_average": 7.6,
-            "vote_count": 18
-        },
-        {
-            "name": "Record of Ragnarok",
-            "backdrop_path": "/iq5L971DFW1SwLJdvl7OpPI1QeZ.jpg",
-            "poster_path": "/kTs2WNZOukpWdNhoRlH94pSJ3xf.jpg",
-            "genre": "NetflixOriginals",
-            "id": 114868,
-            "overview": "Before eradicating humankind from the world, the gods give them one last chance to prove themselves worthy of survival. Let the Ragnarok battles begin.",
-            "vote_average": 8.7,
-            "vote_count": 852
+            "id": 76669,
+            "overview": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+            "vote_average": 8.2,
+            "vote_count": 7746
         },
         {
             "name": "Stranger Things",
@@ -188,111 +168,49 @@
             "id": 66732,
             "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
             "vote_average": 8.6,
-            "vote_count": 8985
+            "vote_count": 9097
         },
         {
-            "name": "Inside Job",
-            "backdrop_path": "/tiLJNqQuCwIIgK30iavU6x0SFQj.jpg",
-            "poster_path": "/onf4RsFiu9ZkitnkXN4tto6Kjyd.jpg",
+            "name": "The Snitch Cartel: Origins",
+            "backdrop_path": "/aGULNElJVpSru19WP2pUjopPX1U.jpg",
+            "poster_path": "/A17Rt6BLHno0puR1QXbsSKhBfA4.jpg",
             "genre": "NetflixOriginals",
-            "id": 97727,
-            "overview": "For employees of the Deep State, conspiracies aren't just theories — they're fact. And keeping them a secret is a full-time job.",
-            "vote_average": 8.7,
-            "vote_count": 62
+            "id": 128252,
+            "overview": "In Cali during the '60s and '70s, two brothers juggle family, romance and the joint pursuit of a burning ambition: to rule Colombia's drug industry.",
+            "vote_average": 7.9,
+            "vote_count": 204
+        },
+        {
+            "name": "BAKI",
+            "backdrop_path": "/yQjO3CqZSbby6U7y3NfzrLB32rq.jpg",
+            "poster_path": "/c79L7zCnRzDJerrlbIWkNCjA6tg.jpg",
+            "genre": "NetflixOriginals",
+            "id": 80623,
+            "overview": "While martial arts champion Baki Hanma trains hard to surpass his legendary father, five violent death row inmates descend upon Tokyo to take him on.",
+            "vote_average": 8.1,
+            "vote_count": 807
+        },
+        {
+            "name": "The Witcher",
+            "backdrop_path": "/s56eyXy8rADp5DpZknfe2HXq4u4.jpg",
+            "poster_path": "/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+            "genre": "NetflixOriginals",
+            "id": 71912,
+            "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+            "vote_average": 8.2,
+            "vote_count": 2674
         }
     ],
     "Trending": [
         {
-            "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
-            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
-            "genre": "Trending",
-            "id": 438631,
-            "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
-            "vote_average": 8,
-            "vote_count": 3267
-        },
-        {
-            "name": "Squid Game",
-            "backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
-            "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-            "genre": "Trending",
-            "id": 93405,
-            "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
-            "vote_average": 7.8,
-            "vote_count": 8514
-        },
-        {
-            "backdrop_path": "/lxLiKYM4laorYKMxyaWrSVbLIjr.jpg",
-            "poster_path": "/iPTZGFmPs7HsXHYxiuxGolihjOH.jpg",
-            "genre": "Trending",
-            "id": 796499,
-            "overview": "A mysterious woman recruits bank teller Ludwig Dieter to lead a group of aspiring thieves on a top-secret heist during the early stages of the zombie apocalypse.",
-            "vote_average": 6.7,
-            "vote_count": 340
-        },
-        {
+            "name": "Venom: Let There Be Carnage",
             "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
             "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
             "genre": "Trending",
             "id": 580489,
             "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
-            "vote_average": 6.9,
-            "vote_count": 1483
-        },
-        {
-            "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
-            "poster_path": "/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg",
-            "genre": "Trending",
-            "id": 744275,
-            "overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
-            "vote_average": 7.4,
-            "vote_count": 648
-        },
-        {
-            "backdrop_path": "/tDYwYktjFmpj92S2Qn4T3BcRgL.jpg",
-            "poster_path": "/qmJGd5IfURq8iPQ9KF3les47vFS.jpg",
-            "genre": "Trending",
-            "id": 610253,
-            "overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
-            "vote_average": 7.1,
-            "vote_count": 1034
-        },
-        {
-            "name": "You",
-            "backdrop_path": "/e92qfYRVYUL602ztyEoujUtXlS1.jpg",
-            "poster_path": "/yxIdKGEjagaLs5kMjw92kAHmopH.jpg",
-            "genre": "Trending",
-            "id": 78191,
-            "overview": "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
-            "vote_average": 8.2,
-            "vote_count": 1617
-        },
-        {
-            "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
-            "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
-            "genre": "Trending",
-            "id": 550988,
-            "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
-            "vote_average": 7.8,
-            "vote_count": 3346
-        },
-        {
-            "backdrop_path": "/3G6wET9eLvYn3aoIj8NfQFhpYEB.jpg",
-            "poster_path": "/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg",
-            "genre": "Trending",
-            "id": 524434,
-            "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
-            "vote_average": 7.5,
-            "vote_count": 74
-        },
-        {
-            "backdrop_path": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
-            "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
-            "genre": "Trending",
-            "id": 385128,
-            "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
-            "vote_average": 7.4,
-            "vote_count": 4258
+            "vote_average": 7.2,
+            "vote_count": 4025
         },
         {
             "name": "Money Heist",
@@ -302,912 +220,1140 @@
             "id": 71446,
             "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
             "vote_average": 8.3,
-            "vote_count": 14839
+            "vote_count": 15338
         },
         {
-            "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
-            "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+            "name": "The Last Duel",
+            "backdrop_path": "/mFbS5TwN95BcSEfiztdchLgTQ0v.jpg",
+            "poster_path": "/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
             "genre": "Trending",
-            "id": 436969,
-            "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-            "vote_average": 7.8,
-            "vote_count": 4624
+            "id": 617653,
+            "overview": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
+            "vote_average": 7.7,
+            "vote_count": 673
         },
         {
-            "backdrop_path": "/9CyFLGfeDOrOOPouHp446T5MSNi.jpg",
-            "poster_path": "/miEj4kNc4efZ5WbPJqWl1UXWrvS.jpg",
+            "name": "Hawkeye",
+            "backdrop_path": "/1R68vl3d5s86JsS2NPjl8UoMqIS.jpg",
+            "poster_path": "/pqzjCxPVc9TkVgGRWeAoMmyqkZV.jpg",
             "genre": "Trending",
-            "id": 864873,
-            "overview": "A young woman seeking self-improvement enlists the help of a renowned hypnotist but, after a handful of intense sessions, discovers unexpected and deadly consequences.",
-            "vote_average": 6,
-            "vote_count": 161
+            "id": 88329,
+            "overview": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit.",
+            "vote_average": 8.6,
+            "vote_count": 579
         },
         {
-            "name": "Chucky",
-            "backdrop_path": "/xAKMj134XHQVNHLC6rWsccLMenG.jpg",
-            "poster_path": "/iF8ai2QLNiHV4anwY1TuSGZXqfN.jpg",
-            "genre": "Trending",
-            "id": 90462,
-            "overview": "After a vintage Chucky doll turns up at a suburban yard sale, an idyllic American town is thrown into chaos as a series of horrifying murders begin to expose the town’s hypocrisies and secrets. Meanwhile, the arrival of enemies — and allies — from Chucky’s past threatens to expose the truth behind the killings, as well as the demon doll’s untold origins.",
-            "vote_average": 8,
-            "vote_count": 1553
-        },
-        {
-            "backdrop_path": "/lROPTZPTeuiS0C0Pww3xPvtfqT1.jpg",
-            "poster_path": "/su9WzL7lwUZPhjH6eZByAYFx2US.jpg",
-            "genre": "Trending",
-            "id": 618162,
-            "overview": "Gunning for revenge, outlaw Nat Love saddles up with his gang to take down enemy Rufus Buck, a ruthless crime boss who just got sprung from prison.",
-            "vote_average": 6.8,
-            "vote_count": 20
-        },
-        {
-            "name": "Invasion",
-            "backdrop_path": "/9IsGcpX1p0iU3eRpiTFrWkg5qqj.jpg",
-            "poster_path": "/7rpiHZx10Nm50AtzTUEO9eyaKdq.jpg",
-            "genre": "Trending",
-            "id": 127235,
-            "overview": "Earth is visited by an alien species that threatens humanity’s existence. Events unfold in real time through the eyes of five ordinary people across the globe as they struggle to make sense of the chaos unraveling around them.",
-            "vote_average": 7.4,
-            "vote_count": 101
-        },
-        {
-            "backdrop_path": "/iTgM25ftE7YtFgZwUZupVp8A61S.jpg",
-            "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
-            "genre": "Trending",
-            "id": 631843,
-            "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly – reducing their entire lives into a single day.",
-            "vote_average": 6.7,
-            "vote_count": 1534
-        },
-        {
-            "backdrop_path": "/u5Fp9GBy9W8fqkuGfLBuuoJf57Z.jpg",
+            "name": "No Time to Die",
+            "backdrop_path": "/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg",
             "poster_path": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
             "genre": "Trending",
             "id": 370172,
             "overview": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
-            "vote_average": 7.4,
-            "vote_count": 1096
+            "vote_average": 7.5,
+            "vote_count": 2368
         },
         {
-            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
-            "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+            "name": "Shang-Chi and the Legend of the Ten Rings",
+            "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+            "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
             "genre": "Trending",
-            "id": 335983,
-            "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
-            "vote_average": 6.8,
-            "vote_count": 12069
+            "id": 566525,
+            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+            "vote_average": 7.9,
+            "vote_count": 3979
         },
         {
-            "backdrop_path": "/q6krHSCZk5DfdOhKRK7ejtZbCbN.jpg",
-            "poster_path": "/4niEFGAUEz3GUqwk9Y2y4aAERhE.jpg",
+            "name": "Dune",
+            "backdrop_path": "/Aebz7s8EHQXxHR98J8Vw6QVGggq.jpg",
+            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
             "genre": "Trending",
-            "id": 669671,
-            "overview": "A college student moonlighting as a chauffeur picks up two mysterious women for a night of party-hopping across LA. But when he uncovers their bloodthirsty intentions - and their dangerous, shadowy underworld - he must fight to stay alive.",
-            "vote_average": 6.8,
-            "vote_count": 258
+            "id": 438631,
+            "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+            "vote_average": 8,
+            "vote_count": 4538
+        },
+        {
+            "name": "Spider-Man: No Way Home",
+            "backdrop_path": "/VlHt27nCqOuTnuX6bku8QZapzO.jpg",
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "genre": "Trending",
+            "id": 634649,
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "name": "Red Notice",
+            "backdrop_path": "/5uVhMGsps81CN0S4U9NF0Z4tytG.jpg",
+            "poster_path": "/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
+            "genre": "Trending",
+            "id": 512195,
+            "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+            "vote_average": 6.9,
+            "vote_count": 1763
+        },
+        {
+            "name": "Squid Game",
+            "backdrop_path": "/qw3J9cNeLioOLoR68WX7z79aCdK.jpg",
+            "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+            "genre": "Trending",
+            "id": 93405,
+            "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+            "vote_average": 7.8,
+            "vote_count": 9296
+        },
+        {
+            "name": "The Power of the Dog",
+            "backdrop_path": "/p1eneBfZCGbbzicwksOhIaibUwk.jpg",
+            "poster_path": "/zWMAdiQGV4V3qCq2z9ku3Dh5q2f.jpg",
+            "genre": "Trending",
+            "id": 600583,
+            "overview": "A domineering, magnetic rancher responds with mocking cruelty when his brother brings home a new wife and her son, until the unexpected comes to pass.",
+            "vote_average": 6.7,
+            "vote_count": 191
+        },
+        {
+            "name": "Ron's Gone Wrong",
+            "backdrop_path": "/38hC0dk5rSeuHAk7CnprvyTNJlB.jpg",
+            "poster_path": "/gA9QxSravC2EVEkEKgyEmDrfL0e.jpg",
+            "genre": "Trending",
+            "id": 482321,
+            "overview": "In a world where walking, talking, digitally connected bots have become children's best friends, an 11-year-old finds that his robot buddy doesn't quite work the same as the others do.",
+            "vote_average": 8.6,
+            "vote_count": 209
+        },
+        {
+            "name": "The Wheel of Time",
+            "backdrop_path": "/1P3QtW1IkivqDrKbbwuR0zCYIf8.jpg",
+            "poster_path": "/mpgDeLhl8HbhI03XLB7iKO6M6JE.jpg",
+            "genre": "Trending",
+            "id": 71914,
+            "overview": "Follow Moiraine, a member of the shadowy and influential all-female organization called the “Aes Sedai” as she embarks on a dangerous, world-spanning journey with five young men and women. Moiraine believes one of them might be the reincarnation of an incredibly powerful individual, whom prophecies say will either save humanity or destroy it.",
+            "vote_average": 8.1,
+            "vote_count": 434
+        },
+        {
+            "name": "Money Heist: From Tokyo to Berlin",
+            "backdrop_path": "/gk1enrMtCVABqJd4ujVwIIeswTT.jpg",
+            "poster_path": "/g0wLsOFpvK5nX5hsIAwXHrpnFLI.jpg",
+            "genre": "Trending",
+            "id": 132719,
+            "overview": "The filmmakers and actors behind \"Money Heist\" characters like Tokyo and the Professor talk about the emotional and artistic process of filming Money Heist.",
+            "vote_average": 7.5,
+            "vote_count": 19
+        },
+        {
+            "name": "Arcane: League of Legends",
+            "backdrop_path": "/rkB4LyZHo1NHXFEDHl9vSD9r1lI.jpg",
+            "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+            "genre": "Trending",
+            "id": 94605,
+            "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+            "vote_average": 9.2,
+            "vote_count": 1038
+        },
+        {
+            "name": "Last Night in Soho",
+            "backdrop_path": "/7OcRErUXXdAVAHg6y5cjn56ivtu.jpg",
+            "poster_path": "/1qamhFbRGHicXz7hAzcsOnKVyFL.jpg",
+            "genre": "Trending",
+            "id": 576845,
+            "overview": "A young girl, passionate about fashion design, is mysteriously able to enter the 1960s where she encounters her idol, a dazzling wannabe singer. But 1960s London is not what it seems, and time seems to be falling apart with shady consequences.",
+            "vote_average": 7.5,
+            "vote_count": 677
+        },
+        {
+            "name": "Encanto",
+            "backdrop_path": "/g2djzUqA6mFplzC03gDk0WSyg99.jpg",
+            "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+            "genre": "Trending",
+            "id": 568124,
+            "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+            "vote_average": 7.5,
+            "vote_count": 218
+        },
+        {
+            "name": "Eternals",
+            "backdrop_path": "/lyvszvJJqqI8aqBJ70XzdCNoK0y.jpg",
+            "poster_path": "/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg",
+            "genre": "Trending",
+            "id": 524434,
+            "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
+            "vote_average": 7.1,
+            "vote_count": 1348
+        },
+        {
+            "name": "Demon Slayer: Kimetsu no Yaiba",
+            "backdrop_path": "/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
+            "poster_path": "/wrCVHdkBlBWdJUZPvnJWcBRuhSY.jpg",
+            "genre": "Trending",
+            "id": 85937,
+            "overview": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+            "vote_average": 8.8,
+            "vote_count": 3020
+        },
+        {
+            "name": "Dexter: New Blood",
+            "backdrop_path": "/e6v08948EZVvLrx0sWpmglguY9e.jpg",
+            "poster_path": "/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
+            "genre": "Trending",
+            "id": 131927,
+            "overview": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
+            "vote_average": 8.6,
+            "vote_count": 260
         }
     ],
     "TopRated": [
         {
+            "name": "Dilwale Dulhania Le Jayenge",
             "backdrop_path": "/5hNcsnMkwU2LknLoru73c76el3z.jpg",
             "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
             "genre": "TopRated",
             "id": 19404,
             "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
             "vote_average": 8.7,
-            "vote_count": 3207
+            "vote_count": 3265
         },
         {
+            "name": "The Shawshank Redemption",
             "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
             "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
             "genre": "TopRated",
             "id": 278,
             "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
             "vote_average": 8.7,
-            "vote_count": 20005
+            "vote_count": 20232
         },
         {
+            "name": "The Godfather",
             "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
             "poster_path": "/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg",
             "genre": "TopRated",
             "id": 238,
             "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
             "vote_average": 8.7,
-            "vote_count": 14993
+            "vote_count": 15141
         },
         {
+            "name": "Gabriel's Inferno Part II",
             "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
             "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
             "genre": "TopRated",
             "id": 724089,
             "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
             "vote_average": 8.7,
-            "vote_count": 1318
+            "vote_count": 1342
         },
         {
+            "name": "Ron's Gone Wrong",
+            "backdrop_path": "/38hC0dk5rSeuHAk7CnprvyTNJlB.jpg",
+            "poster_path": "/gA9QxSravC2EVEkEKgyEmDrfL0e.jpg",
+            "genre": "TopRated",
+            "id": 482321,
+            "overview": "In a world where walking, talking, digitally connected bots have become children's best friends, an 11-year-old finds that his robot buddy doesn't quite work the same as the others do.",
+            "vote_average": 8.6,
+            "vote_count": 209
+        },
+        {
+            "name": "Gabriel's Inferno Part III",
             "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
             "poster_path": "/qtX2Fg9MTmrbgN1UUvGoCsImTM8.jpg",
             "genre": "TopRated",
             "id": 761053,
             "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
             "vote_average": 8.6,
-            "vote_count": 886
+            "vote_count": 907
         },
         {
-            "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
-            "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
-            "genre": "TopRated",
-            "id": 696374,
-            "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
-            "vote_average": 8.6,
-            "vote_count": 2135
-        },
-        {
-            "backdrop_path": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
-            "poster_path": "/jDwZavHo99JtGsCyRzp4epeeBHx.jpg",
-            "genre": "TopRated",
-            "id": 283566,
-            "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka, and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each of them live a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
-            "vote_average": 8.6,
-            "vote_count": 355
-        },
-        {
+            "name": "Schindler's List",
             "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
             "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
             "genre": "TopRated",
             "id": 424,
             "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
             "vote_average": 8.6,
-            "vote_count": 11976
+            "vote_count": 12094
         },
         {
+            "name": "Gabriel's Inferno",
+            "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
+            "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+            "genre": "TopRated",
+            "id": 696374,
+            "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+            "vote_average": 8.6,
+            "vote_count": 2162
+        },
+        {
+            "name": "The Godfather: Part II",
             "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
-            "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+            "poster_path": "/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
             "genre": "TopRated",
             "id": 240,
             "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
             "vote_average": 8.6,
-            "vote_count": 9014
+            "vote_count": 9116
         },
         {
+            "name": "Hope",
             "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
             "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
             "genre": "TopRated",
             "id": 255709,
             "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
             "vote_average": 8.6,
-            "vote_count": 223
+            "vote_count": 236
         },
         {
-            "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
+            "name": "Your Name.",
+            "backdrop_path": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
             "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
             "genre": "TopRated",
             "id": 372058,
             "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
             "vote_average": 8.6,
-            "vote_count": 8002
+            "vote_count": 8111
         },
         {
-            "backdrop_path": "/bf9shWfUKyEB5oB7awJeKIoCehl.jpg",
+            "name": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+            "backdrop_path": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
+            "poster_path": "/jDwZavHo99JtGsCyRzp4epeeBHx.jpg",
+            "genre": "TopRated",
+            "id": 283566,
+            "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka, and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each of them live a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+            "vote_average": 8.6,
+            "vote_count": 391
+        },
+        {
+            "name": "Spirited Away",
+            "backdrop_path": "/Ab8mkHmkYADjU7wQiOkia9BzGvS.jpg",
             "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
             "genre": "TopRated",
             "id": 129,
             "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
             "vote_average": 8.5,
-            "vote_count": 11976
+            "vote_count": 12120
         },
         {
-            "backdrop_path": "/u1wHUA0R48FH4WV3sGqjwx3aNZm.jpg",
-            "poster_path": "/xKCtoYHUyX8zAg68eemnYa2orep.jpg",
-            "genre": "TopRated",
-            "id": 632632,
-            "overview": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.",
-            "vote_average": 8.5,
-            "vote_count": 262
-        },
-        {
+            "name": "Parasite",
             "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
             "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
             "genre": "TopRated",
             "id": 496243,
             "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
             "vote_average": 8.5,
-            "vote_count": 12410
+            "vote_count": 12610
         },
         {
-            "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
-            "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+            "name": "Given",
+            "backdrop_path": "/u1wHUA0R48FH4WV3sGqjwx3aNZm.jpg",
+            "poster_path": "/xKCtoYHUyX8zAg68eemnYa2orep.jpg",
             "genre": "TopRated",
-            "id": 497,
-            "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+            "id": 632632,
+            "overview": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.",
             "vote_average": 8.5,
-            "vote_count": 12969
+            "vote_count": 272
         },
         {
-            "backdrop_path": "/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
-            "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
-            "genre": "TopRated",
-            "id": 441130,
-            "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-            "vote_average": 8.5,
-            "vote_count": 600
-        },
-        {
+            "name": "12 Angry Men",
             "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
             "poster_path": "/e02s4wmTAExkKg0yF4dEG98ZRpK.jpg",
             "genre": "TopRated",
             "id": 389,
             "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
             "vote_average": 8.5,
-            "vote_count": 5930
+            "vote_count": 5997
         },
         {
+            "name": "Dedicated to my ex",
             "backdrop_path": "/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
             "poster_path": "/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
             "genre": "TopRated",
             "id": 644479,
             "overview": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.",
             "vote_average": 8.5,
-            "vote_count": 426
+            "vote_count": 440
         },
         {
-            "backdrop_path": "/5MgMCnslrxQfOfaq6T5ndkLlcCk.jpg",
-            "poster_path": "/pvdBzHOWjrLl69lUswPiVnI8szv.jpg",
+            "name": "The Green Mile",
+            "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+            "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
             "genre": "TopRated",
-            "id": 572154,
-            "overview": "In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.",
+            "id": 497,
+            "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
             "vote_average": 8.5,
-            "vote_count": 316
+            "vote_count": 13137
         },
         {
-            "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-            "poster_path": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+            "name": "KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson",
+            "backdrop_path": "/m5HPKCi7GdhKmxPTcOQmcLfEmZ9.jpg",
+            "poster_path": "/j73LuQcA21KvkVFcroWWMN8tTJv.jpg",
             "genre": "TopRated",
-            "id": 680,
-            "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+            "id": 532067,
+            "overview": "It is not strange that the Demon Lord's forces fear the Crimson Demons, the clan from which Megumin and Yunyun originate. Even if the Demon Lord's generals attack their village, the Crimson Demons can just easily brush them off with their supreme mastery of advanced and overpowered magic.  When Yunyun receives a seemingly serious letter regarding a potential disaster coming to her hometown, she immediately informs Kazuma Satou and the rest of his party. After a series of wacky misunderstandings, it turns out to be a mere prank by her fellow demon who wants to be an author. Even so, Megumin becomes worried about her family and sets out toward the Crimson Demons' village with the gang.  There, Kazuma and the others decide to sightsee the wonders of Megumin's birthplace. However, they soon come to realize that the nonsense threat they received might have been more than just a joke.",
             "vote_average": 8.5,
-            "vote_count": 22002
+            "vote_count": 318
+        },
+        {
+            "name": "Wolfwalkers",
+            "backdrop_path": "/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
+            "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
+            "genre": "TopRated",
+            "id": 441130,
+            "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+            "vote_average": 8.5,
+            "vote_count": 635
         }
     ],
     "ActionMovies": [
         {
+            "name": "Venom: Let There Be Carnage",
             "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
             "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
             "genre": "ActionMovies",
             "id": 580489,
             "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
-            "vote_average": 6.9,
-            "vote_count": 1483
+            "vote_average": 7.2,
+            "vote_count": 4025
         },
         {
-            "backdrop_path": "/eeijXm3553xvuFbkPFkDG6CLCbQ.jpg",
-            "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+            "name": "Red Notice",
+            "backdrop_path": "/5uVhMGsps81CN0S4U9NF0Z4tytG.jpg",
+            "poster_path": "/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
             "genre": "ActionMovies",
-            "id": 438631,
-            "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
-            "vote_average": 8,
-            "vote_count": 3267
+            "id": 512195,
+            "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+            "vote_average": 6.9,
+            "vote_count": 1763
         },
         {
+            "name": "Shang-Chi and the Legend of the Ten Rings",
+            "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+            "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+            "genre": "ActionMovies",
+            "id": 566525,
+            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+            "vote_average": 7.9,
+            "vote_count": 3979
+        },
+        {
+            "name": "Spider-Man: No Way Home",
+            "backdrop_path": "/VlHt27nCqOuTnuX6bku8QZapzO.jpg",
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "genre": "ActionMovies",
+            "id": 634649,
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "name": "No Time to Die",
+            "backdrop_path": "/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg",
+            "poster_path": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+            "genre": "ActionMovies",
+            "id": 370172,
+            "overview": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+            "vote_average": 7.5,
+            "vote_count": 2368
+        },
+        {
+            "name": "Eternals",
+            "backdrop_path": "/lyvszvJJqqI8aqBJ70XzdCNoK0y.jpg",
+            "poster_path": "/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg",
+            "genre": "ActionMovies",
+            "id": 524434,
+            "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
+            "vote_average": 7.1,
+            "vote_count": 1348
+        },
+        {
+            "name": "Free Guy",
             "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
             "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
             "genre": "ActionMovies",
             "id": 550988,
             "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
             "vote_average": 7.8,
-            "vote_count": 3346
+            "vote_count": 3966
         },
         {
-            "backdrop_path": "/2OFg5p9yarI5zZsUWKCRgBgPctj.jpg",
-            "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+            "name": "Apex",
+            "backdrop_path": "/4gKxQIW91hOTELjY5lzjMbLoGxB.jpg",
+            "poster_path": "/chTkFGToW5bsyw3hgLAe4S5Gt3.jpg",
             "genre": "ActionMovies",
-            "id": 568620,
-            "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
-            "vote_average": 6.9,
-            "vote_count": 764
+            "id": 763164,
+            "overview": "Ex-cop Thomas Malone is serving a life sentence for a crime he didn’t commit. He is offered a chance at freedom if he can survive a deadly game of Apex, in which six hunters pay for the pleasure of hunting another human on a remote island. He accepts, and once he arrives, all hell breaks loose.",
+            "vote_average": 5.6,
+            "vote_count": 245
         },
         {
-            "backdrop_path": "/eBGKU0ZLJmxtVtzESTB1mfllX1J.jpg",
-            "poster_path": "/kWhXubAiIcHW0xn5GThflqaKZqh.jpg",
+            "name": "The Last Duel",
+            "backdrop_path": "/mFbS5TwN95BcSEfiztdchLgTQ0v.jpg",
+            "poster_path": "/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
             "genre": "ActionMovies",
-            "id": 630004,
-            "overview": "When an engineer learns of a mysterious, impenetrable fortress hidden under The Bank of Spain, he joins a crew of master thieves who plan to steal the legendary lost treasure locked inside while the whole country is distracted by Spain's World Cup Final. With thousands of soccer fans cheering in the streets, and security forces closing in, the crew have just minutes to pull off the score of a lifetime.",
-            "vote_average": 7,
-            "vote_count": 377
+            "id": 617653,
+            "overview": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
+            "vote_average": 7.7,
+            "vote_count": 673
         },
         {
-            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
-            "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
-            "genre": "ActionMovies",
-            "id": 335983,
-            "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
-            "vote_average": 6.8,
-            "vote_count": 12069
-        },
-        {
-            "backdrop_path": "/4O40vu2KOgnFfxvrZgzBG6havQ.jpg",
-            "poster_path": "/o9FY8N5c8CXf22q8s4CmRRjAQJx.jpg",
-            "genre": "ActionMovies",
-            "id": 645788,
-            "overview": "Rescued as a child by the legendary assassin Moody and trained in the family business, Anna is the world’s most skilled contract killer. When Moody, the man who was like a father to her and taught her everything she needs to know about trust and survival, is brutally killed, Anna vows revenge. As she becomes entangled with an enigmatic killer whose attraction to her goes way beyond cat and mouse, their confrontation turns deadly and the loose ends of a life spent killing will weave themselves ever tighter.",
-            "vote_average": 6.8,
-            "vote_count": 314
-        },
-        {
-            "backdrop_path": "/1yJ8wBmWyEM24UFUSDaRHJFMPPL.jpg",
-            "poster_path": "/uXGoV9IgKChvN7UGMj01y3purGc.jpg",
-            "genre": "ActionMovies",
-            "id": 760747,
-            "overview": "A dysfunctional couple head to a remote lakeside cabin under the guise of reconnecting, but each has secret designs to kill the other. Before they can carry out their respective plans, unexpected visitors arrive and the couple is faced with a greater danger than anything they could have plotted.",
-            "vote_average": 7,
-            "vote_count": 93
-        },
-        {
+            "name": "The Seven Deadly Sins: Cursed by Light",
             "backdrop_path": "/7h5WAPAcUzOWpp2jrwHBB48790j.jpg",
             "poster_path": "/k0ThmZQl5nHe4JefC2bXjqtgYp0.jpg",
             "genre": "ActionMovies",
             "id": 843241,
             "overview": "With the help of the \"Dragon Sin of Wrath\" Meliodas and the worst rebels in history, the Seven Deadly Sins, the \"Holy War\", in which four races, including Humans, Goddesses, Fairies and Giants fought against the Demons, is finally over. At the cost of the \"Lion Sin of Pride\" Escanor's life, the Demon King was defeated and the world regained peace. After that, each of the Sins take their own path.",
-            "vote_average": 8.4,
-            "vote_count": 204
+            "vote_average": 8.1,
+            "vote_count": 237
         },
         {
-            "backdrop_path": "/nDLylQOoIazGyYuWhk21Yww5FCb.jpg",
-            "poster_path": "/1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
-            "genre": "ActionMovies",
-            "id": 566525,
-            "overview": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-            "vote_average": 7.7,
-            "vote_count": 1381
-        },
-        {
-            "backdrop_path": "/hugKriLPeBm3lErSCQiFOgQzpkC.jpg",
-            "poster_path": "/5AaKulwpUtkscAokKWtLenGTfVS.jpg",
-            "genre": "ActionMovies",
-            "id": 574060,
-            "overview": "In her turbulent life as a professional assassin, Sam has no choice but to go rogue to save the life of an innocent 8-year-old girl in the middle of the gang war she has unleashed.",
-            "vote_average": 6.5,
-            "vote_count": 325
-        },
-        {
-            "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
-            "poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
-            "genre": "ActionMovies",
-            "id": 703771,
-            "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
-            "vote_average": 6.9,
-            "vote_count": 290
-        },
-        {
-            "backdrop_path": "/3G6wET9eLvYn3aoIj8NfQFhpYEB.jpg",
-            "poster_path": "/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg",
-            "genre": "ActionMovies",
-            "id": 524434,
-            "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
-            "vote_average": 7.5,
-            "vote_count": 74
-        },
-        {
-            "backdrop_path": "/5UmoOvOmnCHiJj3TAKVn7uNAKAW.jpg",
-            "poster_path": "/jxdKa1467pktAILLbfw6kZyQlbW.jpg",
-            "genre": "ActionMovies",
-            "id": 772436,
-            "overview": "Faced with the unexpected death of his estranged father -El Máscara- and the subsequent theft of his precious mask, Rubén -Mascarita- will find himself confronted with his past. Alongside his invincible bodyguard Tony \"The Cannibal\" and, an unexpected ally, he will have only one day to recover it and make amends with the memory of his father.",
-            "vote_average": 8,
-            "vote_count": 52
-        },
-        {
-            "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
-            "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-            "genre": "ActionMovies",
-            "id": 436969,
-            "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-            "vote_average": 7.8,
-            "vote_count": 4624
-        },
-        {
-            "backdrop_path": "/7WJjFviFBffEJvkAms4uWwbcVUk.jpg",
-            "poster_path": "/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
-            "genre": "ActionMovies",
-            "id": 451048,
-            "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal – a discovery that will change the future of medicine.",
-            "vote_average": 7.8,
-            "vote_count": 3078
-        },
-        {
-            "backdrop_path": "/q4h2ZbhHKhnWvrrqzcjT778zlbn.jpg",
-            "poster_path": "/lNRdCfVcjLs2LhO1Vb5rgnHV4JW.jpg",
-            "genre": "ActionMovies",
-            "id": 831405,
-            "overview": "When Lois Lane is killed, an unhinged Superman decides to take control of the Earth. Determined to stop him, Batman creates a team of freedom-fighting heroes. But when superheroes go to war, can the world survive?",
-            "vote_average": 8,
-            "vote_count": 316
-        },
-        {
+            "name": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
             "backdrop_path": "/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
             "poster_path": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
             "genre": "ActionMovies",
             "id": 635302,
             "overview": "Tanjirō Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyōjurō Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
             "vote_average": 8.4,
-            "vote_count": 1816
+            "vote_count": 1901
         },
         {
-            "backdrop_path": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
+            "name": "Never Back Down: Revolt",
+            "backdrop_path": "/ruKcAP8XimNLfrKwNl9YfAUlCGm.jpg",
+            "poster_path": "/icAG01wZyy1ZpS3UEnPReph3jMV.jpg",
+            "genre": "ActionMovies",
+            "id": 763025,
+            "overview": "An amateur fighter is lured by a trafficking syndicate specializing in elite underground fighting where her brutal captor forces her to fight or face certain death.",
+            "vote_average": 6.5,
+            "vote_count": 21
+        },
+        {
+            "name": "The Amazing Spider-Man",
+            "backdrop_path": "/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
+            "poster_path": "/4cw1Vpp68ec518BHiS6gfa3yDoU.jpg",
+            "genre": "ActionMovies",
+            "id": 1930,
+            "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance – leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+            "vote_average": 6.6,
+            "vote_count": 13686
+        },
+        {
+            "name": "Outlaws",
+            "backdrop_path": "/vJ3ED2jPblACDqaJPZlbN6T1yjy.jpg",
+            "poster_path": "/qrq7sGXraFM6H9OcHFKQTKe8A3f.jpg",
+            "genre": "ActionMovies",
+            "id": 776821,
+            "overview": "Introverted Girona student Nacho meets two delinquents from the city's Chinatown and gets caught up in a summer onslaught of burglaries and hold ups that will change his life.",
+            "vote_average": 6.9,
+            "vote_count": 50
+        },
+        {
+            "name": "Snake Eyes: G.I. Joe Origins",
+            "backdrop_path": "/2OFg5p9yarI5zZsUWKCRgBgPctj.jpg",
+            "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+            "genre": "ActionMovies",
+            "id": 568620,
+            "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+            "vote_average": 6.8,
+            "vote_count": 860
+        },
+        {
+            "name": "Spider-Man: Homecoming",
+            "backdrop_path": "/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg",
+            "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+            "genre": "ActionMovies",
+            "id": 315635,
+            "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+            "vote_average": 7.4,
+            "vote_count": 17264
+        },
+        {
+            "name": "Army of Thieves",
+            "backdrop_path": "/mu8RKavbv7Ml48twHQ6XVk7zw8e.jpg",
+            "poster_path": "/iPTZGFmPs7HsXHYxiuxGolihjOH.jpg",
+            "genre": "ActionMovies",
+            "id": 796499,
+            "overview": "A mysterious woman recruits bank teller Ludwig Dieter to lead a group of aspiring thieves on a top-secret heist during the early stages of the zombie apocalypse.",
+            "vote_average": 6.9,
+            "vote_count": 851
+        },
+        {
+            "name": "Spider-Man: Far From Home",
+            "backdrop_path": "/ng6SSB3JhbcpKTwbPDsRwUYK8Cq.jpg",
+            "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+            "genre": "ActionMovies",
+            "id": 429617,
+            "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+            "vote_average": 7.5,
+            "vote_count": 11118
+        },
+        {
+            "name": "F9",
+            "backdrop_path": "/gGTCDNEvwG848u34Op1nZNALLUr.jpg",
             "poster_path": "/bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
             "genre": "ActionMovies",
             "id": 385128,
             "overview": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
             "vote_average": 7.4,
-            "vote_count": 4258
+            "vote_count": 4496
         },
         {
-            "backdrop_path": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
-            "poster_path": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+            "name": "Deathstroke: Knights & Dragons - The Movie",
+            "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+            "poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
             "genre": "ActionMovies",
-            "id": 497698,
-            "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-            "vote_average": 7.7,
-            "vote_count": 5748
+            "id": 703771,
+            "overview": "The assassin Deathstroke tries to save his family from the wrath of H.I.V.E. and the murderous Jackal.",
+            "vote_average": 7,
+            "vote_count": 302
         }
     ],
     "ComedyMovies": [
         {
+            "name": "Red Notice",
+            "backdrop_path": "/5uVhMGsps81CN0S4U9NF0Z4tytG.jpg",
+            "poster_path": "/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
+            "genre": "ComedyMovies",
+            "id": 512195,
+            "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+            "vote_average": 6.9,
+            "vote_count": 1763
+        },
+        {
+            "name": "Clifford the Big Red Dog",
+            "backdrop_path": "/zBkHCpLmHjW2uVURs5uZkaVmgKR.jpg",
+            "poster_path": "/ygPTrycbMSFDc5zUpy4K5ZZtQSC.jpg",
+            "genre": "ComedyMovies",
+            "id": 585245,
+            "overview": "As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love.",
+            "vote_average": 7.6,
+            "vote_count": 407
+        },
+        {
+            "name": "Encanto",
+            "backdrop_path": "/g2djzUqA6mFplzC03gDk0WSyg99.jpg",
+            "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+            "genre": "ComedyMovies",
+            "id": 568124,
+            "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+            "vote_average": 7.5,
+            "vote_count": 218
+        },
+        {
+            "name": "The Simpsons in Plusaversary",
+            "backdrop_path": "/1zgob2Z8xVE3RZUgOKnHKcVPzOE.jpg",
+            "poster_path": "/9xaAT3V3I9xxqnNiEjCivNFfdlh.jpg",
+            "genre": "ComedyMovies",
+            "id": 877183,
+            "overview": "The Simpsons host a Disney+ Day party and everyone is on the list… except Homer. With friends from across the service and music fit for a Disney Princess, Plusaversary is Springfield's event of the year.",
+            "vote_average": 6.9,
+            "vote_count": 137
+        },
+        {
+            "name": "Free Guy",
             "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
             "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
             "genre": "ComedyMovies",
             "id": 550988,
             "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
             "vote_average": 7.8,
-            "vote_count": 3346
+            "vote_count": 3966
         },
         {
-            "backdrop_path": "/askg3SMvhqEl4OL52YuvdtY40Yb.jpg",
-            "poster_path": "/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg",
+            "name": "Ciao Alberto",
+            "backdrop_path": "/qXctHIfK4LAgHH7qZiJJVCPclaY.jpg",
+            "poster_path": "/1SyTnaY0wte69oKdqxQLvxPT3hs.jpg",
             "genre": "ComedyMovies",
-            "id": 354912,
-            "overview": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
-            "vote_average": 8.2,
-            "vote_count": 14710
+            "id": 876716,
+            "overview": "With his best friend Luca away at school, Alberto is enjoying his new life in Portorosso working alongside Massimo – the imposing, tattooed, one-armed fisherman of few words – who's quite possibly the coolest human in the entire world as far as Alberto is concerned. He wants more than anything to impress his mentor, but it's easier said than done.",
+            "vote_average": 7.6,
+            "vote_count": 235
         },
         {
-            "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
-            "poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+            "name": "Home Sweet Home Alone",
+            "backdrop_path": "/a8tH0jl37366bLVyPB08dncgqqd.jpg",
+            "poster_path": "/fP3VvqUjEBjawxZHL4sYCq2ZdJD.jpg",
             "genre": "ComedyMovies",
-            "id": 639721,
-            "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
-            "vote_average": 7.5,
-            "vote_count": 501
+            "id": 654974,
+            "overview": "After being left at home by himself for the holidays, 10-year-old Max Mercer must work to defend his home from a married couple who tries to steal back a valuable heirloom.",
+            "vote_average": 5.5,
+            "vote_count": 219
         },
         {
-            "backdrop_path": "/1yJ8wBmWyEM24UFUSDaRHJFMPPL.jpg",
-            "poster_path": "/uXGoV9IgKChvN7UGMj01y3purGc.jpg",
+            "name": "8-Bit Christmas",
+            "backdrop_path": "/vr6TqnRLcZACo9htfcmBUcjs2t4.jpg",
+            "poster_path": "/5YwaISdOwp8Zu6O7kwBeUn8a7Pu.jpg",
             "genre": "ComedyMovies",
-            "id": 760747,
-            "overview": "A dysfunctional couple head to a remote lakeside cabin under the guise of reconnecting, but each has secret designs to kill the other. Before they can carry out their respective plans, unexpected visitors arrive and the couple is faced with a greater danger than anything they could have plotted.",
-            "vote_average": 7,
-            "vote_count": 93
+            "id": 802217,
+            "overview": "In suburban Chicago during the late 1980s, ten-year-old Jake Doyle embarks on a herculean quest to get the latest and greatest video game system for Christmas.",
+            "vote_average": 6.6,
+            "vote_count": 67
         },
         {
+            "name": "Ron's Gone Wrong",
+            "backdrop_path": "/38hC0dk5rSeuHAk7CnprvyTNJlB.jpg",
+            "poster_path": "/gA9QxSravC2EVEkEKgyEmDrfL0e.jpg",
+            "genre": "ComedyMovies",
+            "id": 482321,
+            "overview": "In a world where walking, talking, digitally connected bots have become children's best friends, an 11-year-old finds that his robot buddy doesn't quite work the same as the others do.",
+            "vote_average": 8.6,
+            "vote_count": 209
+        },
+        {
+            "name": "The Boss Baby: Family Business",
+            "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+            "poster_path": "/uWStkK8bq9ixY3fc7y209ZleCoF.jpg",
+            "genre": "ComedyMovies",
+            "id": 459151,
+            "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+            "vote_average": 7.7,
+            "vote_count": 1637
+        },
+        {
+            "name": "The Last Warrior: Root of Evil",
             "backdrop_path": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
             "poster_path": "/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg",
             "genre": "ComedyMovies",
             "id": 589754,
             "overview": "Peace and tranquility have set in Belogorie. The evil was defeated and Ivan is now enjoying his well-deserved fame. He is surrounded by his family, friends and small wonders from the modern world that help him lead a comfortable life. Luckily, he has his Magic Sword to cut a gap between the worlds to get some supplies quite regularly. But when an ancient evil rises and the existence of the magic world is put to danger, Ivan has to team up with his old friends and his new rivals. They will set out on a long journey beyond the known world to find a way to defeat the enemies and to return peace to Belogorie.",
-            "vote_average": 7.1,
-            "vote_count": 62
+            "vote_average": 7,
+            "vote_count": 66
         },
         {
-            "backdrop_path": "/5UmoOvOmnCHiJj3TAKVn7uNAKAW.jpg",
-            "poster_path": "/jxdKa1467pktAILLbfw6kZyQlbW.jpg",
-            "genre": "ComedyMovies",
-            "id": 772436,
-            "overview": "Faced with the unexpected death of his estranged father -El Máscara- and the subsequent theft of his precious mask, Rubén -Mascarita- will find himself confronted with his past. Alongside his invincible bodyguard Tony \"The Cannibal\" and, an unexpected ally, he will have only one day to recover it and make amends with the memory of his father.",
-            "vote_average": 8,
-            "vote_count": 52
-        },
-        {
-            "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
-            "poster_path": "/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg",
-            "genre": "ComedyMovies",
-            "id": 459151,
-            "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
-            "vote_average": 7.7,
-            "vote_count": 1573
-        },
-        {
+            "name": "Jungle Cruise",
             "backdrop_path": "/7WJjFviFBffEJvkAms4uWwbcVUk.jpg",
             "poster_path": "/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
             "genre": "ComedyMovies",
             "id": 451048,
             "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal – a discovery that will change the future of medicine.",
-            "vote_average": 7.8,
-            "vote_count": 3078
-        },
-        {
-            "backdrop_path": "/mtRW6eAwOO27h3zrfU2foQFW7Hg.jpg",
-            "poster_path": "/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
-            "genre": "ComedyMovies",
-            "id": 675445,
-            "overview": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
             "vote_average": 7.7,
-            "vote_count": 652
+            "vote_count": 3466
         },
         {
+            "name": "Luca",
             "backdrop_path": "/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
             "poster_path": "/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
             "genre": "ComedyMovies",
             "id": 508943,
             "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
             "vote_average": 8,
-            "vote_count": 4965
+            "vote_count": 5225
         },
         {
+            "name": "PAW Patrol: The Movie",
+            "backdrop_path": "/w2jm8I0K83aZzHcI4Acl8DtuXCt.jpg",
+            "poster_path": "/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
+            "genre": "ComedyMovies",
+            "id": 675445,
+            "overview": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
+            "vote_average": 7.6,
+            "vote_count": 725
+        },
+        {
+            "name": "The Addams Family 2",
+            "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+            "poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+            "genre": "ComedyMovies",
+            "id": 639721,
+            "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
+            "vote_average": 7.3,
+            "vote_count": 631
+        },
+        {
+            "name": "Cruella",
+            "backdrop_path": "/kmuSGNlF9mfNHIDOEVEWPj6f3Ak.jpg",
+            "poster_path": "/wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg",
+            "genre": "ComedyMovies",
+            "id": 337404,
+            "overview": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
+            "vote_average": 8.2,
+            "vote_count": 6073
+        },
+        {
+            "name": "Space Jam: A New Legacy",
             "backdrop_path": "/8s4h9friP6Ci3adRGahHARVd76E.jpg",
             "poster_path": "/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg",
             "genre": "ComedyMovies",
             "id": 379686,
             "overview": "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
-            "vote_average": 7.3,
-            "vote_count": 2524
+            "vote_average": 7.2,
+            "vote_count": 2651
         },
         {
-            "backdrop_path": "/kmuSGNlF9mfNHIDOEVEWPj6f3Ak.jpg",
-            "poster_path": "/rTh4K5uw9HypmpGslcKd4QfHl93.jpg",
+            "name": "Ghostbusters: Afterlife",
+            "backdrop_path": "/qknLmBKDyjGMC40b7ZehqdfIi2A.jpg",
+            "poster_path": "/kHNWm8YDl1Pf6tyzluLagbtkU94.jpg",
             "genre": "ComedyMovies",
-            "id": 337404,
-            "overview": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
-            "vote_average": 8.3,
-            "vote_count": 5832
+            "id": 425909,
+            "overview": "When a single mom and her two kids arrive in a small town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind.",
+            "vote_average": 7.4,
+            "vote_count": 240
         },
         {
-            "backdrop_path": "/uFbWXErtWVfcxeFhuat4hO5GSYC.jpg",
-            "poster_path": "/kZBA6UFI9KTS5kZdEtGmw9PqdWZ.jpg",
+            "name": "Spider-Man: Into the Spider-Verse",
+            "backdrop_path": "/6qVF0gnLnbKCgcMfCpCB8GH7B5I.jpg",
+            "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
             "genre": "ComedyMovies",
-            "id": 613098,
-            "overview": "Geeky-looking Sebas is a surprisingly good classical musician. He’s also a complete unknown in the criminal underworld, and as a new newbie on the police force, that makes him the perfect man for a dangerous mission: to go undercover as a keyboard player for “Los Lolos”, a cheesy flamenco-trap band, who have been hired to play at the wedding of a local mafia boss’ daughter that a major drug trafficker will be attending.  Sebas is keen to take on the mission, blissfully unaware that he will turn out to be even cheesier than Lolo, the band’s lead singer, and fall in love with his sister, Luci. Now Sebas will face a tough choice: remain loyal to his new friends or complete his police mission.",
-            "vote_average": 5.7,
-            "vote_count": 16
+            "id": 324857,
+            "overview": "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
+            "vote_average": 8.4,
+            "vote_count": 10276
         },
         {
-            "backdrop_path": "/b6olvKvBQwduyu1TQlHfyjTwjgm.jpg",
-            "poster_path": "/yTQbZCxZ4amGZKC9ETjTr7ZAH7L.jpg",
+            "name": "Descendants: The Royal Wedding",
+            "backdrop_path": "/8F9BF4siFR3BDg5Vta3JGfAT7dx.jpg",
+            "poster_path": "/tK5xU4x7w9npLUYT5xZJ4RvVlsM.jpg",
             "genre": "ComedyMovies",
-            "id": 826914,
-            "overview": "Gonzo is challenged to spend one night in The Haunted Mansion on Halloween night.",
-            "vote_average": 6.8,
-            "vote_count": 79
-        },
-        {
-            "backdrop_path": "/f53Jujiap580mgfefID0T0g2e17.jpg",
-            "poster_path": "/fYiaBZDjyXjvlY6EDZMAxIhBO1I.jpg",
-            "genre": "ComedyMovies",
-            "id": 857702,
-            "overview": "Poe Dameron and BB-8 must face the greedy crime boss Graballa the Hutt, who has purchased Darth Vader’s castle and is renovating it into the galaxy’s first all-inclusive Sith-inspired luxury hotel.",
-            "vote_average": 6.6,
-            "vote_count": 78
-        },
-        {
-            "backdrop_path": "/26LIw3oKGPUEGUpb8AXZ64dZZt8.jpg",
-            "poster_path": "/uIdMpWrQ30SHPINsy7LcPFloyvO.jpg",
-            "genre": "ComedyMovies",
-            "id": 843906,
-            "overview": "With Mystery, Inc. on the tail of a strange object in Nowhere, Kansas, the strange hometown of Eustice, Muriel, and Courage, the gang soon find themselves contending with a giant cicada monster and her winged warriors.",
-            "vote_average": 8.3,
-            "vote_count": 220
-        },
-        {
-            "backdrop_path": "/j9WjY88LQoeK1YLUM1rSFrSw1Lr.jpg",
-            "poster_path": "/2EnHRyHdboUWz120LDiAk2M2Lgc.jpg",
-            "genre": "ComedyMovies",
-            "id": 763873,
-            "overview": "Three friends try to save their mummified friend, Harold, from greedy criminals by returning him to his resting place before midnight on Halloween.",
-            "vote_average": 7.1,
-            "vote_count": 37
-        },
-        {
-            "backdrop_path": "/kDQdFs5XL6G8TuXvd0NnJfQ59GP.jpg",
-            "poster_path": "/d0wn9YtEnmbucx8ZUsT918ctoiK.jpg",
-            "genre": "ComedyMovies",
-            "id": 641501,
-            "overview": "Paris 2020. While superheroes have assimilated into the Parisian society, they discover a new drug that gives themselves personal superpowers to mere mortals. Lieutenants Moreau and Schaltzmann are investigating the case with the support of two ex-superheroes, Monte Carlo and Callista. They'll do whatever it takes to dismantle the traffic. But Moreau's past resurfaces, and the investigation becomes more complicated.",
-            "vote_average": 6.1,
-            "vote_count": 290
-        },
-        {
-            "backdrop_path": "/ugukqzx4gSzBd1yzmbWEHLkpGaS.jpg",
-            "poster_path": "/hzq5XRGgm6NDMOW1idUvbpGqEkv.jpg",
-            "genre": "ComedyMovies",
-            "id": 597316,
-            "overview": "Equestria's divided. But a bright-eyed hero believes Earth Ponies, Pegasi and Unicorns should be pals — and, hoof to heart, she’s determined to prove it.",
-            "vote_average": 8.1,
-            "vote_count": 126
-        },
-        {
-            "backdrop_path": "/rlNnwObbMu5G2FaOUlacnUIdIIA.jpg",
-            "poster_path": "/qQ0VKsGRQ2ofAmswGNzZnvC1xPE.jpg",
-            "genre": "ComedyMovies",
-            "id": 726684,
-            "overview": "On school break, Marinette heads to Shanghai to meet Adrien. But after arriving, Marinette loses all her stuff, including the Miraculous that allows her to turn into Ladybug!",
-            "vote_average": 7.9,
-            "vote_count": 618
+            "id": 805411,
+            "overview": "Happily-ever-after continues for Auradon's power couple as they prepare to say \"I do\" at an epic celebration with their friends and family, but Hades threatens to ruin it all.",
+            "vote_average": 7,
+            "vote_count": 62
         }
     ],
     "HorrorMovies": [
         {
-            "backdrop_path": "/tDYwYktjFmpj92S2Qn4T3BcRgL.jpg",
+            "name": "Dark Spell",
+            "backdrop_path": "/o2OSpKzXuB1edCDyVC2MXAxXwyJ.jpg",
+            "poster_path": "/2AbGdSGlU6CpiV3lswHUgE5CdAA.jpg",
+            "genre": "HorrorMovies",
+            "id": 633802,
+            "overview": "Terror strikes when a heartbroken woman uses black magic to get her husband back.",
+            "vote_average": 7.3,
+            "vote_count": 40
+        },
+        {
+            "name": "Last Night in Soho",
+            "backdrop_path": "/7OcRErUXXdAVAHg6y5cjn56ivtu.jpg",
+            "poster_path": "/1qamhFbRGHicXz7hAzcsOnKVyFL.jpg",
+            "genre": "HorrorMovies",
+            "id": 576845,
+            "overview": "A young girl, passionate about fashion design, is mysteriously able to enter the 1960s where she encounters her idol, a dazzling wannabe singer. But 1960s London is not what it seems, and time seems to be falling apart with shady consequences.",
+            "vote_average": 7.5,
+            "vote_count": 677
+        },
+        {
+            "name": "Tarumama",
+            "backdrop_path": "/vkojfC1xykW9XBCyDDCMYeHqLEf.jpg",
+            "poster_path": "/iwlmZKndp7fIfHbxVzQtk9zby3A.jpg",
+            "genre": "HorrorMovies",
+            "id": 775943,
+            "overview": "Sara and Óscar, a couple going through a marital crisis, decide to spend a week in a remote country cabin with their two children, Alicia and Tomás. The family tries to have a quiet time, but something strange happens there. There is a woman who prowls through the forest and cries uncontrollably looking for a baby she has just lost. This deeply affects the family who will have to stay together to survive this nightmare.",
+            "vote_average": 4.7,
+            "vote_count": 11
+        },
+        {
+            "name": "Resident Evil: Welcome to Raccoon City",
+            "backdrop_path": "/zaY1FoAc39lHWaA6jUF93t95D7O.jpg",
+            "poster_path": "/7uRbWOXxpWDMtnsd2PF3clu65jc.jpg",
+            "genre": "HorrorMovies",
+            "id": 460458,
+            "overview": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company’s exodus left the city a wasteland…with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever…changed…and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night.",
+            "vote_average": 6,
+            "vote_count": 108
+        },
+        {
+            "name": "Dragon Fury",
+            "backdrop_path": "/5PQhNs4M3RxIqaNAdBI6mXlXyYh.jpg",
+            "poster_path": "/6WcJ4cV2Y3gnTYp5zHu968TYmTJ.jpg",
+            "genre": "HorrorMovies",
+            "id": 839436,
+            "overview": "A group of soldiers are taken to the mountains of Wales to investigate a strange looking monster.",
+            "vote_average": 6.4,
+            "vote_count": 27
+        },
+        {
+            "name": "Halloween Kills",
+            "backdrop_path": "/fuuZFPc8x6gQ8mLGoBp9vrmcQMT.jpg",
             "poster_path": "/qmJGd5IfURq8iPQ9KF3les47vFS.jpg",
             "genre": "HorrorMovies",
             "id": 610253,
             "overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
-            "vote_average": 7.1,
-            "vote_count": 1034
+            "vote_average": 6.9,
+            "vote_count": 1299
         },
         {
-            "backdrop_path": "/1yJ8wBmWyEM24UFUSDaRHJFMPPL.jpg",
+            "name": "The Deep House",
+            "backdrop_path": "/4WPg1vB0OoSWPDrECEMMYFiLIK9.jpg",
+            "poster_path": "/5xhAPxRr64oQPEFnUOrttuI4ZEU.jpg",
+            "genre": "HorrorMovies",
+            "id": 672582,
+            "overview": "While diving in a remote French lake, a couple of YouTubers who specialize in underwater exploration videos discover a house submerged in the deep waters. What was initially a unique finding soon turns into a nightmare when they discover that the house was the scene of atrocious crimes. Trapped, with their oxygen reserves falling dangerously, they realize the worst is yet to come: they are not alone in the house.",
+            "vote_average": 6.4,
+            "vote_count": 309
+        },
+        {
+            "name": "Motherly",
+            "backdrop_path": "/ugZbX5lKx4L9ONEu0WTNbR96J0t.jpg",
+            "poster_path": "/wmh1likQEetSLIUs5MAvfWjEayY.jpg",
+            "genre": "HorrorMovies",
+            "id": 768447,
+            "overview": "Kate and her daughter Beth live alone in an isolated farmhouse in the woods, but when Kate slowly begins to suspect that something sinister is happening, her motherly instincts are put to the test.",
+            "vote_average": 6.4,
+            "vote_count": 4
+        },
+        {
+            "name": "Ripper Untold",
+            "backdrop_path": "/bNnNlUjf16ahEw0uv39NUeQ35YR.jpg",
+            "poster_path": "/dpELyqPFcAhpyaCRFnoUEpQrqZU.jpg",
+            "genre": "HorrorMovies",
+            "id": 820511,
+            "overview": "A detective and a medical examiner join forces to solve a series of horrific murders in Victorian London - but one of them harbors a deadly secret.",
+            "vote_average": 6.6,
+            "vote_count": 53
+        },
+        {
+            "name": "Nobody Sleeps in the Woods Tonight 2",
+            "backdrop_path": "/icOUc1llxf2GJr1Z4dBbJYLzuvw.jpg",
+            "poster_path": "/6QvepemlDGIiiYsVs0Y1ieFuG7N.jpg",
+            "genre": "HorrorMovies",
+            "id": 871964,
+            "overview": "When something horrible happens to the only survivor of a bloody massacre, an insecure rookie cop must overcome his fears to stop further carnage.",
+            "vote_average": 4.1,
+            "vote_count": 102
+        },
+        {
+            "name": "The Trip",
+            "backdrop_path": "/y1WpGHdu5upQbuU2WqC2RsArZel.jpg",
             "poster_path": "/uXGoV9IgKChvN7UGMj01y3purGc.jpg",
             "genre": "HorrorMovies",
             "id": 760747,
             "overview": "A dysfunctional couple head to a remote lakeside cabin under the guise of reconnecting, but each has secret designs to kill the other. Before they can carry out their respective plans, unexpected visitors arrive and the couple is faced with a greater danger than anything they could have plotted.",
-            "vote_average": 7,
-            "vote_count": 93
+            "vote_average": 6.8,
+            "vote_count": 169
         },
         {
-            "backdrop_path": "/ecsFDRy0QhH5MedMscDVWe2vhwd.jpg",
-            "poster_path": "/dpELyqPFcAhpyaCRFnoUEpQrqZU.jpg",
-            "genre": "HorrorMovies",
-            "id": 820511,
-            "overview": "A detective and a medical examiner join forces to solve a series of horrific murders in Victorian London - but one of them harbours a deadly secret.",
-            "vote_average": 6.5,
-            "vote_count": 39
-        },
-        {
+            "name": "Separation",
             "backdrop_path": "/7z5MJGJ9CObnu770ZubDQye7DKD.jpg",
             "poster_path": "/lHbSC2Np17CRsRXIbaE0YY1Hora.jpg",
             "genre": "HorrorMovies",
             "id": 760195,
             "overview": "A young girl finds solace in her artist father and the ghost of her dead mother.",
             "vote_average": 5.9,
-            "vote_count": 71
+            "vote_count": 85
         },
         {
-            "backdrop_path": "/5PQhNs4M3RxIqaNAdBI6mXlXyYh.jpg",
-            "poster_path": "/6WcJ4cV2Y3gnTYp5zHu968TYmTJ.jpg",
-            "genre": "HorrorMovies",
-            "id": 839436,
-            "overview": "A group of soldiers are taken to the mountains of Wales to investigate a strange beast.",
-            "vote_average": 5.9,
-            "vote_count": 19
-        },
-        {
-            "backdrop_path": "/q6krHSCZk5DfdOhKRK7ejtZbCbN.jpg",
-            "poster_path": "/4niEFGAUEz3GUqwk9Y2y4aAERhE.jpg",
-            "genre": "HorrorMovies",
-            "id": 669671,
-            "overview": "A college student moonlighting as a chauffeur picks up two mysterious women for a night of party-hopping across LA. But when he uncovers their bloodthirsty intentions - and their dangerous, shadowy underworld - he must fight to stay alive.",
-            "vote_average": 6.8,
-            "vote_count": 258
-        },
-        {
-            "backdrop_path": "/tFBVXnqmsmoSFR3rbltTfdGIMgV.jpg",
-            "poster_path": "/pUK9duiCK1PKqWA5rRQ4XBMHITH.jpg",
-            "genre": "HorrorMovies",
-            "id": 774021,
-            "overview": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed.",
-            "vote_average": 5,
-            "vote_count": 68
-        },
-        {
-            "backdrop_path": "/c0izdYdnTe4uMRifHgvTA85wPz0.jpg",
-            "poster_path": "/z8CExJekGrEThbpMXAmCFvvgoJR.jpg",
-            "genre": "HorrorMovies",
-            "id": 503736,
-            "overview": "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble: venturing into the quarantine zone to pull off the greatest heist ever attempted.",
-            "vote_average": 6.4,
-            "vote_count": 2461
-        },
-        {
-            "backdrop_path": "/tehpKMsls621GT9WUQie2Ft6LmP.jpg",
-            "poster_path": "/lB068qa6bQ0QKYKyC2xnYGvYjl7.jpg",
-            "genre": "HorrorMovies",
-            "id": 602223,
-            "overview": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
-            "vote_average": 7.4,
-            "vote_count": 1379
-        },
-        {
-            "backdrop_path": "/AX8VvTMrzEddzMa4zR2NNHUtZ9.jpg",
-            "poster_path": "/8NUM43rtQSt0chumXGJPvnYb01I.jpg",
-            "genre": "HorrorMovies",
-            "id": 777620,
-            "overview": "An African American male is imprisoned and placed in solitary confinement after being found guilty of murdering his wife, as he's haunted by internal demons and his dead wife, and pushed to the breaking point by an abusive female guard.",
-            "vote_average": 6.5,
-            "vote_count": 35
-        },
-        {
-            "backdrop_path": "/qi6Edc1OPcyENecGtz8TF0DUr9e.jpg",
-            "poster_path": "/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
-            "genre": "HorrorMovies",
-            "id": 423108,
-            "overview": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
-            "vote_average": 7.8,
-            "vote_count": 3833
-        },
-        {
+            "name": "Old",
             "backdrop_path": "/iTgM25ftE7YtFgZwUZupVp8A61S.jpg",
             "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
             "genre": "HorrorMovies",
             "id": 631843,
             "overview": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly – reducing their entire lives into a single day.",
-            "vote_average": 6.7,
-            "vote_count": 1534
-        },
-        {
-            "backdrop_path": "/1TWlQusiA0G7xoWMMDIpM70EVDf.jpg",
-            "poster_path": "/gCQm6zqkRiyrezyYK02NymDlybJ.jpg",
-            "genre": "HorrorMovies",
-            "id": 741636,
-            "overview": "When indie singer Grey struggles to write her sophomore album, she teams up with a mysterious producer at his secluded cabin. Though their bond strengthens her music, it also starts to irreparably alter Grey’s body and mind.",
-            "vote_average": 5.5,
-            "vote_count": 12
-        },
-        {
-            "backdrop_path": "/jw6ASGRT2gi8EjCImpGtbiJ9NQ9.jpg",
-            "poster_path": "/bShgiEQoPnWdw4LBrYT5u18JF34.jpg",
-            "genre": "HorrorMovies",
-            "id": 632357,
-            "overview": "Alice, a young hearing-impaired girl who, after a supposed visitation from the Virgin Mary, is inexplicably able to hear, speak and heal the sick. As word spreads and people from near and far flock to witness her miracles, a disgraced journalist hoping to revive his career visits the small New England town to investigate. When terrifying events begin to happen all around, he starts to question if these phenomena are the works of the Virgin Mary or something much more sinister.",
-            "vote_average": 6.9,
-            "vote_count": 1404
-        },
-        {
-            "backdrop_path": "/pUc51UUQb1lMLVVkDCaZVsCo37U.jpg",
-            "poster_path": "/r7HEBkkRN93d3eFBZgPJfRaob5p.jpg",
-            "genre": "HorrorMovies",
-            "id": 482373,
-            "overview": "The Blind Man has been hiding out for several years in an isolated cabin and has taken in and raised a young girl orphaned from a devastating house fire. Their quiet life together is shattered when a group of criminals kidnap the girl, forcing the Blind Man to leave his safe haven to save her.",
-            "vote_average": 7.7,
-            "vote_count": 1083
-        },
-        {
-            "backdrop_path": "/xDnFlNrNUoSKPq4uptnhYmUZNpm.jpg",
-            "poster_path": "/dGv2BWjzwAz6LB8a8JeRIZL8hSz.jpg",
-            "genre": "HorrorMovies",
-            "id": 619778,
-            "overview": "Madison is paralyzed by shocking visions of grisly murders, and her torment worsens as she discovers that these waking dreams are in fact terrifying realities with a mysterious tie to her past.",
-            "vote_average": 7.1,
-            "vote_count": 954
-        },
-        {
-            "backdrop_path": "/piz0BFUJ4Bro4BFzxxkNpsGCmOd.jpg",
-            "poster_path": "/ysJte1iqN8pFQ470tumnViB1wHP.jpg",
-            "genre": "HorrorMovies",
-            "id": 739990,
-            "overview": "Alex, a boy obsessed with scary stories, is trapped by a witch in her modern, magical New York City apartment. His original hair-raising tales are the only thing keeping him safe as he desperately tries to find a way out of this twisted place.",
             "vote_average": 6.6,
-            "vote_count": 175
+            "vote_count": 1792
         },
         {
-            "backdrop_path": "/8VmF0Cg7CZTfMeTtsF7k2Wrj38Z.jpg",
-            "poster_path": "/5xhAPxRr64oQPEFnUOrttuI4ZEU.jpg",
+            "name": "The Conjuring: The Devil Made Me Do It",
+            "backdrop_path": "/qi6Edc1OPcyENecGtz8TF0DUr9e.jpg",
+            "poster_path": "/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
             "genre": "HorrorMovies",
-            "id": 672582,
-            "overview": "While diving in a remote French lake, a couple of YouTubers who specialize in underwater exploration videos discover a house submerged in the deep waters. What was initially a unique finding soon turns into a nightmare when they discover that the house was the scene of atrocious crimes. Trapped, with their oxygen reserves falling dangerously, they realize the worst is yet to come: they are not alone in the house.",
-            "vote_average": 5.4,
-            "vote_count": 99
+            "id": 423108,
+            "overview": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+            "vote_average": 7.7,
+            "vote_count": 3936
         },
         {
+            "name": "Black Water: Abyss",
             "backdrop_path": "/fRrpOILyXuWaWLmqF7kXeMVwITQ.jpg",
             "poster_path": "/95S6PinQIvVe4uJAd82a2iGZ0rA.jpg",
             "genre": "HorrorMovies",
             "id": 522444,
             "overview": "An adventure-loving couple convince their friends to explore a remote, uncharted cave system in the forests of Northern Australia. With a tropical storm approaching, they abseil into the mouth of the cave, but when the caves start to flood, tensions rise as oxygen levels fall and the friends find themselves trapped. Unknown to them, the storm has also brought in a pack of dangerous and hungry crocodiles.",
             "vote_average": 5.1,
-            "vote_count": 282
+            "vote_count": 291
         },
         {
-            "backdrop_path": "/9CyFLGfeDOrOOPouHp446T5MSNi.jpg",
-            "poster_path": "/miEj4kNc4efZ5WbPJqWl1UXWrvS.jpg",
+            "name": "The Forever Purge",
+            "backdrop_path": "/tehpKMsls621GT9WUQie2Ft6LmP.jpg",
+            "poster_path": "/lB068qa6bQ0QKYKyC2xnYGvYjl7.jpg",
             "genre": "HorrorMovies",
-            "id": 864873,
-            "overview": "A young woman seeking self-improvement enlists the help of a renowned hypnotist but, after a handful of intense sessions, discovers unexpected and deadly consequences.",
-            "vote_average": 6,
-            "vote_count": 161
+            "id": 602223,
+            "overview": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
+            "vote_average": 7.4,
+            "vote_count": 1456
+        },
+        {
+            "name": "Demonic",
+            "backdrop_path": "/tFBVXnqmsmoSFR3rbltTfdGIMgV.jpg",
+            "poster_path": "/pUK9duiCK1PKqWA5rRQ4XBMHITH.jpg",
+            "genre": "HorrorMovies",
+            "id": 774021,
+            "overview": "A young woman unleashes terrifying demons when supernatural forces at the root of a decades-old rift between mother and daughter are ruthlessly revealed.",
+            "vote_average": 4.8,
+            "vote_count": 85
+        },
+        {
+            "name": "Swim",
+            "backdrop_path": "/leDpP52W54kQvIxBd93G8lgTLCx.jpg",
+            "poster_path": "/pBSqH6avxduNAnXhyIkcAfcUMJ0.jpg",
+            "genre": "HorrorMovies",
+            "id": 861057,
+            "overview": "A family gets trapped in their storm flooded vacation rental, tries to escape from a hungry shark that made it's way into the house.",
+            "vote_average": 7.5,
+            "vote_count": 19
+        },
+        {
+            "name": "Army of the Dead",
+            "backdrop_path": "/c0izdYdnTe4uMRifHgvTA85wPz0.jpg",
+            "poster_path": "/z8CExJekGrEThbpMXAmCFvvgoJR.jpg",
+            "genre": "HorrorMovies",
+            "id": 503736,
+            "overview": "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble: venturing into the quarantine zone to pull off the greatest heist ever attempted.",
+            "vote_average": 6.4,
+            "vote_count": 2642
+        },
+        {
+            "name": "Don't Breathe 2",
+            "backdrop_path": "/pUc51UUQb1lMLVVkDCaZVsCo37U.jpg",
+            "poster_path": "/r7HEBkkRN93d3eFBZgPJfRaob5p.jpg",
+            "genre": "HorrorMovies",
+            "id": 482373,
+            "overview": "The Blind Man has been hiding out for several years in an isolated cabin and has taken in and raised a young girl orphaned from a devastating house fire. Their quiet life together is shattered when a group of criminals kidnap the girl, forcing the Blind Man to leave his safe haven to save her.",
+            "vote_average": 7.6,
+            "vote_count": 1227
         }
     ],
     "RomanceMovies": [
         {
-            "backdrop_path": "/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg",
-            "poster_path": "/3WfvjNWr5k1Zzww81b3GWc8KQhb.jpg",
+            "name": "Dark Spell",
+            "backdrop_path": "/o2OSpKzXuB1edCDyVC2MXAxXwyJ.jpg",
+            "poster_path": "/2AbGdSGlU6CpiV3lswHUgE5CdAA.jpg",
+            "genre": "RomanceMovies",
+            "id": 633802,
+            "overview": "Terror strikes when a heartbroken woman uses black magic to get her husband back.",
+            "vote_average": 7.3,
+            "vote_count": 40
+        },
+        {
+            "name": "After We Fell",
+            "backdrop_path": "/lV3UFPPxDIPelh46G9oySXN9Mcz.jpg",
+            "poster_path": "/dU4HfnTEJDf9KvxGS9hgO7BVeju.jpg",
             "genre": "RomanceMovies",
             "id": 744275,
             "overview": "Just as Tessa's life begins to become unglued, nothing is what she thought it would be. Not her friends nor her family. The only person that she should be able to rely on is Hardin, who is furious when he discovers the massive secret that she's been keeping. Before Tessa makes the biggest decision of her life, everything changes because of revelations about her family.",
-            "vote_average": 7.4,
-            "vote_count": 648
-        },
-        {
-            "backdrop_path": "/6hgItrYQEG33y0I7yP2SRl2ei4w.jpg",
-            "poster_path": "/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
-            "genre": "RomanceMovies",
-            "id": 613504,
-            "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
-            "vote_average": 7.3,
-            "vote_count": 4245
-        },
-        {
-            "backdrop_path": "/9gDzYmuy4Gait4GgeGiKdh68XvF.jpg",
-            "poster_path": "/mAGviFp1ufYM3EaZBSrjPiKPBt6.jpg",
-            "genre": "RomanceMovies",
-            "id": 11932,
-            "overview": "Chucky hooks up with another murderous doll, the bridal gown-clad Tiffany, for a Route 66 murder spree with their unwitting hosts.",
-            "vote_average": 5.9,
-            "vote_count": 1293
-        },
-        {
-            "backdrop_path": "/997ToEZvF2Obp9zNZbY5ELVnmrW.jpg",
-            "poster_path": "/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
-            "genre": "RomanceMovies",
-            "id": 537915,
-            "overview": "Tessa Young is a dedicated student, dutiful daughter and loyal girlfriend to her high school sweetheart. Entering her first semester of college, Tessa's guarded world opens up when she meets Hardin Scott, a mysterious and brooding rebel who makes her question all she thought she knew about herself -- and what she wants out of life.",
             "vote_average": 7.2,
-            "vote_count": 6682
+            "vote_count": 1076
         },
         {
-            "backdrop_path": "/r4VumNLSafeGhlieKNhGv0BQ4UD.jpg",
-            "poster_path": "/isb2Qow76GpqYmsSyfdMfsYAjts.jpg",
-            "genre": "RomanceMovies",
-            "id": 3933,
-            "overview": "Set in a 19th-century european village, this stop-motion animation feature follows the story of Victor, a young man whisked away to the underworld and wed to a mysterious corpse bride, while his real bride Victoria waits bereft in the land of the living.",
-            "vote_average": 7.5,
-            "vote_count": 6729
-        },
-        {
+            "name": "The Last: Naruto the Movie",
             "backdrop_path": "/kzIiKLccwuzD3qD5OHFyPIkiqEw.jpg",
             "poster_path": "/bAQ8O5Uw6FedtlCbJTutenzPVKd.jpg",
             "genre": "RomanceMovies",
             "id": 317442,
             "overview": "Two years after the events of the Fourth Great Ninja War, the moon that Hagoromo Otsutsuki created long ago to seal away the Gedo Statue begins to descend towards the world, threatening to become a meteor that would destroy everything on impact. Amidst this crisis, a direct descendant of Kaguya Otsutsuki named Toneri Otsutsuki attempts to kidnap Hinata Hyuga but ends up abducting her younger sister Hanabi. Naruto and his allies now mount a rescue mission before finding themselves embroiled in a final battle to decide the fate of everything.",
             "vote_average": 7.9,
-            "vote_count": 1069
+            "vote_count": 1089
         },
         {
+            "name": "After We Collided",
+            "backdrop_path": "/6hgItrYQEG33y0I7yP2SRl2ei4w.jpg",
+            "poster_path": "/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
+            "genre": "RomanceMovies",
+            "id": 613504,
+            "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
+            "vote_average": 7.3,
+            "vote_count": 4321
+        },
+        {
+            "name": "The Princess Switch 3: Romancing the Star",
+            "backdrop_path": "/itK9lKRC972M4cxUeywGITGdq3J.jpg",
+            "poster_path": "/i4r6PuRqRdy46chzEMftrgrQQ7D.jpg",
+            "genre": "RomanceMovies",
+            "id": 785533,
+            "overview": "When a priceless relic is stolen, Queen Margaret and Princess Stacy enlist the help of Margaret’s audacious look-alike cousin Fiona again who teams with a dashing, mysterious man from her past to retrieve it, rekindling the sparks of a tantalizing Christmas romance and resulting in a very unexpected switch.",
+            "vote_average": 7.2,
+            "vote_count": 149
+        },
+        {
+            "name": "A Castle for Christmas",
+            "backdrop_path": "/7O6yp5DoR6uQlJVqfxkI4Vt8Wan.jpg",
+            "poster_path": "/xhRbfdGRcEv6RUiAfWnER2pOCcU.jpg",
+            "genre": "RomanceMovies",
+            "id": 758879,
+            "overview": "To escape a scandal, a bestselling author journeys to Scotland, where she falls in love with a castle -- and faces off with the grumpy duke who owns it.",
+            "vote_average": 6.4,
+            "vote_count": 100
+        },
+        {
+            "name": "Yes, No, or Maybe Half?",
             "backdrop_path": "/yjmqROw9fa9GahuUxvBFnoVYYMG.jpg",
             "poster_path": "/sH8xCXLEbihNNVDbewddzkYnNPF.jpg",
             "genre": "RomanceMovies",
             "id": 719088,
             "overview": "Kunieda Kei is a popular, young TV announcer whose public and private personas are so different, they might be called extreme. On the outside, he is the picture of perfection, affectionately nicknamed \"The Prince,\" while on the inside he is constantly cursing at all of the incompetence around him. Of course, no one knows this secret of his.  One day, Kei meets animation artist Tsuzuki Ushio for a work assignment. While Kei is in \"inside mode,\" he later runs into Tsuzuki, who doesn't recognize him in his worn-out sweats and a facemask, but as compensation for injuring Tsuzuki's arm, Kei gets roped into helping out with his work.",
-            "vote_average": 6.4,
-            "vote_count": 11
+            "vote_average": 6.3,
+            "vote_count": 12
         },
         {
+            "name": "After",
+            "backdrop_path": "/997ToEZvF2Obp9zNZbY5ELVnmrW.jpg",
+            "poster_path": "/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
+            "genre": "RomanceMovies",
+            "id": 537915,
+            "overview": "Tessa Young is a dedicated student, dutiful daughter and loyal girlfriend to her high school sweetheart. Entering her first semester of college, Tessa's guarded world opens up when she meets Hardin Scott, a mysterious and brooding rebel who makes her question all she thought she knew about herself -- and what she wants out of life.",
+            "vote_average": 7.2,
+            "vote_count": 6768
+        },
+        {
+            "name": "Pretty Guardian Sailor Moon Eternal The Movie Part 2",
+            "backdrop_path": "/4QA7pKpmNgeXkhN1FFIBelHwr6V.jpg",
+            "poster_path": "/f91rtk8dODezNLT3grQrELyzFwA.jpg",
+            "genre": "RomanceMovies",
+            "id": 784500,
+            "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!",
+            "vote_average": 8.1,
+            "vote_count": 92
+        },
+        {
+            "name": "The Twilight Saga: Eclipse",
             "backdrop_path": "/yiWfT2Bl1Nul3Xie39Ahs3FqSjA.jpg",
             "poster_path": "/3mFM80dPzSqoXXuC2UMvLIRWX32.jpg",
             "genre": "RomanceMovies",
             "id": 24021,
             "overview": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life.",
             "vote_average": 6.2,
-            "vote_count": 7146
+            "vote_count": 7197
         },
         {
-            "backdrop_path": "/6T6dp2ivbVcmqI5tpu5AA4CWaIf.jpg",
-            "poster_path": "/mRSsYtYcbhNAfHBp3ha1Nr65agi.jpg",
+            "name": "Dog Years",
+            "backdrop_path": "/h5Gf7QdIUanGVuJX1NyIVPKHwBS.jpg",
+            "poster_path": "/1k2tOu6DWFxsSTbzg3zmlFLbgq8.jpg",
             "genre": "RomanceMovies",
-            "id": 769749,
-            "overview": "Finley, a talented aspiring violinist, meets Beckett, a famous young movie star, on the way to her college semester abroad program in a small coastal village in Ireland. An unexpected romance emerges as the heartthrob Beckett leads the uptight Finley on an adventurous reawakening, and she emboldens him to take charge of his future, until the pressures of his stardom get in the way.",
-            "vote_average": 6.3,
-            "vote_count": 20
+            "id": 806950,
+            "overview": "“Dog Years” tells the story of Stella, a clumsy, cynical, imaginative and tormented teenage girl. “After a life-changing car accident involving a dog, she convinces herself she must count her age in dog years: one year of her life counts for seven, and now that she’s turning sixteen, she is a centennial. For this reason, Stella thinks she has not much time left to live and pens a bucket list of all the things she would like to achieve before she dies.",
+            "vote_average": 5.6,
+            "vote_count": 49
         },
         {
-            "backdrop_path": "/w80kFufwkLNqoiLJVUBaO9pe1UL.jpg",
-            "poster_path": "/oAJ95mBgB0yAKCS5a3Tw5UxjLEp.jpg",
+            "name": "Rascal Does Not Dream of a Dreaming Girl",
+            "backdrop_path": "/5MgMCnslrxQfOfaq6T5ndkLlcCk.jpg",
+            "poster_path": "/7Ai8vNEv4zEveh12JViGikoVPVV.jpg",
             "genre": "RomanceMovies",
-            "id": 763532,
-            "overview": "Teddy wakes up the morning after his wedding to discover that he's jumped forward a year in his life to his first anniversary. Trapped in an endless cycle of time jumps, transported another year ahead every few minutes, he is faced with a race against time as his life crumbles around him.",
-            "vote_average": 7.4,
-            "vote_count": 50
+            "id": 572154,
+            "overview": "In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.",
+            "vote_average": 8.5,
+            "vote_count": 329
         },
         {
+            "name": "Fifty Shades of Grey",
+            "backdrop_path": "/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg",
+            "poster_path": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
+            "genre": "RomanceMovies",
+            "id": 216015,
+            "overview": "When college senior Anastasia Steele steps in for her sick roommate to interview prominent businessman Christian Grey for their campus paper, little does she realize the path her life will take. Christian, as enigmatic as he is rich and powerful, finds himself strangely drawn to Ana, and she to him. Though sexually inexperienced, Ana plunges headlong into an affair -- and learns that Christian's true sexual proclivities push the boundaries of pain and pleasure.",
+            "vote_average": 5.9,
+            "vote_count": 9904
+        },
+        {
+            "name": "Your Name.",
+            "backdrop_path": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+            "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+            "genre": "RomanceMovies",
+            "id": 372058,
+            "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+            "vote_average": 8.6,
+            "vote_count": 8111
+        },
+        {
+            "name": "Why Women Cheat",
             "backdrop_path": "/ouLgfVE1ZrLEA41ZJ8Qbl5paUZX.jpg",
             "poster_path": "/xHJhH0pGTFLsECDry3G170M8fsG.jpg",
             "genre": "RomanceMovies",
@@ -1217,215 +1363,149 @@
             "vote_count": 2
         },
         {
-            "backdrop_path": "/4QA7pKpmNgeXkhN1FFIBelHwr6V.jpg",
-            "poster_path": "/f91rtk8dODezNLT3grQrELyzFwA.jpg",
+            "name": "Call Me by Your Name",
+            "backdrop_path": "/hrMbAi9fPTmc6EtpyyAgDKznptu.jpg",
+            "poster_path": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
             "genre": "RomanceMovies",
-            "id": 784500,
-            "overview": "While under the care of the Outer Sailor Guardians, Hotaru begins to age rapidly. Then, the time comes for all the Sailor Guardians to reunite!",
-            "vote_average": 8.2,
-            "vote_count": 90
+            "id": 398818,
+            "overview": "In 1980s Italy, a relationship begins between seventeen-year-old teenage Elio and the older adult man hired as his father's research assistant.",
+            "vote_average": 8.3,
+            "vote_count": 9668
         },
         {
+            "name": "Sex and the City",
             "backdrop_path": "/osHKguxvXPIUJJzsO3DEORZZ8QD.jpg",
             "poster_path": "/77tIJpDUV5maRnmAUnxT1bzz1Zp.jpg",
             "genre": "RomanceMovies",
             "id": 4564,
             "overview": "A New York writer on sex and love is finally getting married to her Mr. Big. But her three best girlfriends must console her after one of them inadvertently leads Mr. Big to jilt her.",
             "vote_average": 6.6,
-            "vote_count": 1695
+            "vote_count": 1717
         },
         {
-            "backdrop_path": "/5MgMCnslrxQfOfaq6T5ndkLlcCk.jpg",
-            "poster_path": "/pvdBzHOWjrLl69lUswPiVnI8szv.jpg",
+            "name": "Bride of Chucky",
+            "backdrop_path": "/9gDzYmuy4Gait4GgeGiKdh68XvF.jpg",
+            "poster_path": "/mAGviFp1ufYM3EaZBSrjPiKPBt6.jpg",
             "genre": "RomanceMovies",
-            "id": 572154,
-            "overview": "In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.",
-            "vote_average": 8.5,
-            "vote_count": 316
+            "id": 11932,
+            "overview": "Chucky hooks up with another murderous doll, the bridal gown-clad Tiffany, for a Route 66 murder spree with their unwitting hosts.",
+            "vote_average": 5.9,
+            "vote_count": 1319
         },
         {
-            "backdrop_path": "/wsztJfJvJW5nXxn5n0DIMzH2TDM.jpg",
-            "poster_path": "/kW3AG5NHoyq52dcSbMiFB6LyHvk.jpg",
+            "name": "Long Story Short",
+            "backdrop_path": "/w80kFufwkLNqoiLJVUBaO9pe1UL.jpg",
+            "poster_path": "/oAJ95mBgB0yAKCS5a3Tw5UxjLEp.jpg",
             "genre": "RomanceMovies",
-            "id": 347626,
-            "overview": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into prom king.",
-            "vote_average": 6.9,
-            "vote_count": 667
+            "id": 763532,
+            "overview": "Teddy wakes up the morning after his wedding to discover that he's jumped forward a year in his life to his first anniversary. Trapped in an endless cycle of time jumps, transported another year ahead every few minutes, he is faced with a race against time as his life crumbles around him.",
+            "vote_average": 7.2,
+            "vote_count": 60
         },
         {
-            "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
-            "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+            "name": "Titanic",
+            "backdrop_path": "/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
+            "poster_path": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
             "genre": "RomanceMovies",
-            "id": 372058,
-            "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-            "vote_average": 8.6,
-            "vote_count": 8002
-        },
-        {
-            "backdrop_path": "/rsBFDOVtsVQ76dcOsRMTmREFffV.jpg",
-            "poster_path": "/1nXN4e3IoTJD42ci7WHZeI1Cgpm.jpg",
-            "genre": "RomanceMovies",
-            "id": 43347,
-            "overview": "Maggie is an alluring free spirit who won't let anyone – or anything – tie her down. But she meets her match in Jamie, whose relentless and nearly infallible charm serves him well with the ladies and in the cutthroat world of pharmaceutical sales. Maggie and Jamie's evolving relationship takes them both by surprise, as they find themselves under the influence of the ultimate drug: love.",
-            "vote_average": 7,
-            "vote_count": 3963
-        },
-        {
-            "backdrop_path": "/849RDhbADVVnhtggR14dDBYejeN.jpg",
-            "poster_path": "/clDFqATL4zcE7LzUwkrVj3zHvk7.jpg",
-            "genre": "RomanceMovies",
-            "id": 593910,
-            "overview": "Cinderella, an orphaned girl with an evil stepmother, has big dreams and with the help of her Fabulous Godmother, she perseveres to make them come true.",
-            "vote_average": 6.7,
-            "vote_count": 858
-        },
-        {
-            "backdrop_path": "/63xBsC6u54uJggUd7mntwB6RuaN.jpg",
-            "poster_path": "/3yGwAPl6LWpi8QwHjwCMaqsPgNB.jpg",
-            "genre": "RomanceMovies",
-            "id": 662237,
-            "overview": "Faced with real-world opportunities and challenges, a couple endures the highs and lows of trying to make a long-distance relationship survive.",
+            "id": 597,
+            "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
             "vote_average": 7.9,
-            "vote_count": 64
-        },
-        {
-            "backdrop_path": "/ztbvseeUyHh0PtKMAcB27LpRax3.jpg",
-            "poster_path": "/tYUdh9HsTHLd2GJUtAyKg3InlXs.jpg",
-            "genre": "RomanceMovies",
-            "id": 776909,
-            "overview": "Fashion assistant Maca has just about got her life together after a devastating breakup, when Leo, the man who broke her heart returns. Seeking support from best friends, Adriana and Jime, all three will learn love can be complicated.",
-            "vote_average": 6.5,
-            "vote_count": 61
+            "vote_count": 20141
         }
     ],
     "Documentaries": [
         {
-            "backdrop_path": null,
-            "poster_path": "/bRYEP7gdMi8lqlzT5csXpKTJaQ5.jpg",
+            "name": "Money Heist: The Phenomenon",
+            "backdrop_path": "/uILX4gGU9OqpndR7JXENn29MoEv.jpg",
+            "poster_path": "/AboUXTrDWEi0PuZUqaft0iwBTm7.jpg",
             "genre": "Documentaries",
-            "id": 854535,
-            "overview": "A celebration of the 30+ year legacy of the Child’s Play franchise and iconic character, Chucky, with never-before-seen interviews with franchise creator and actors.",
-            "vote_average": 5,
+            "id": 689249,
+            "overview": "A documentary on why 'Money Heist' sparked a wave of enthusiasm around the world for a lovable group of thieves and their professor.",
+            "vote_average": 7.5,
+            "vote_count": 888
+        },
+        {
+            "name": "Assassins",
+            "backdrop_path": "/vxS1fkt6xQWtYNyFkm6D6OhV0sR.jpg",
+            "poster_path": "/guEH393qNWWh2wBJoGP7oqmjTK5.jpg",
+            "genre": "Documentaries",
+            "id": 653740,
+            "overview": "True crime meets global spy thriller in this gripping account of the assassination of Kim Jong-nam, the half brother of the North Korean leader. The film follows the trial of the two female assassins, probing the question: were the women trained killers or innocent pawns of North Korea?",
+            "vote_average": 6.8,
             "vote_count": 4
         },
         {
+            "name": "Ghostheads",
+            "backdrop_path": "/IdUO2MCcy93cGXw1B6PpkZL6nu.jpg",
+            "poster_path": "/7HqyHRvkKvf7X6FkBJOcqaSvred.jpg",
+            "genre": "Documentaries",
+            "id": 367816,
+            "overview": "A documentary that explores the extreme side of the Ghostbusters fandom. Join us as we travel the world meeting extreme Ghostbusters fans. Every Ghosthead is unique. Every Franchise is its own. Every pop culture fandom should learn how to give back to the community.",
+            "vote_average": 5.9,
+            "vote_count": 29
+        },
+        {
+            "name": "After Porn Ends 2",
             "backdrop_path": "/uO6ZUez70Twan92pqoV60T9kiGH.jpg",
             "poster_path": "/rfItXrtDGILwsCdmgVxX79phFuI.jpg",
             "genre": "Documentaries",
             "id": 440249,
             "overview": "After Porn Ends 2 picks up where its predecessor left off and not only turns back the clock to meet the oldest living stars in adult film's history, but goes in depth with some of Its most current retirees and juxtaposes their experiences in a life after porn. Delving deeper into society's ongoing stigmas of race, misogyny, and the reality of decreasing opportunities for these former VHS box cover stars. For some, their careers in adult entertainment is accepted proudly and without regret. In fact, it seems to have proven to be the pathway to their current happiness and inner peace. For others, however, a career in porn has proven to be a conduit to certain despair as they struggle to find a way to bury their past and emerge with a new career or calling.",
             "vote_average": 5.5,
-            "vote_count": 181
+            "vote_count": 187
         },
         {
+            "name": "Diego, The Last Goodbye",
+            "backdrop_path": "/4Z89BwPQHoCXKSAnOFwulaqyYXG.jpg",
+            "poster_path": "/hUmpWqixNRe9EfsmbzccJQV0gt.jpg",
+            "genre": "Documentaries",
+            "id": 900887,
+            "overview": "The last year in the life of Diego Maradona told by friends, family and former companions reveals his deep humanity. In the midst of the Covid 19 pandemic, a Maradonian funeral sends him away amid tears, songs and tear gas.",
+            "vote_average": 10,
+            "vote_count": 1
+        },
+        {
+            "name": "Porn to Be Free",
             "backdrop_path": "/slh9qCbyDcMN2rC9FiueZ6pR2fj.jpg",
             "poster_path": "/xhB2hGJBSvK69ZDOZJvNnoGh9vL.jpg",
             "genre": "Documentaries",
             "id": 381749,
             "overview": "Italy, 1970. An increasing legion of harmless warriors begins a peaceful struggle for sexual freedom through pornography, shaking and shocking religious authorities and conservative political institutions. They are ironic, happy, crazy. They are dreamers, defenders of definitive communion between body and soul. But they were censored and humiliated. They were mistreated and arrested for demanding loud a new cultural renaissance.",
-            "vote_average": 5.4,
-            "vote_count": 63
+            "vote_average": 5.5,
+            "vote_count": 65
         },
         {
-            "backdrop_path": "/lFb1Ey6HqCdc2D74Zt5kr7EpQKT.jpg",
-            "poster_path": "/3eBZxi0xcXBnEYq4m4YTVf0eHWX.jpg",
-            "genre": "Documentaries",
-            "id": 536841,
-            "overview": "Constructed from over 500 hours of never-before-seen footage, this documentary centers on the personal life and career of the controversial football player Diego Maradona who played for SSC Napoli and Argentina in the 1980s.",
-            "vote_average": 7.5,
-            "vote_count": 294
-        },
-        {
-            "backdrop_path": null,
-            "poster_path": "/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg",
-            "genre": "Documentaries",
-            "id": 706545,
-            "overview": "A vintage featurette about the making of Child's Play (1988).",
-            "vote_average": 4.3,
-            "vote_count": 3
-        },
-        {
-            "backdrop_path": "/uILX4gGU9OqpndR7JXENn29MoEv.jpg",
-            "poster_path": "/AboUXTrDWEi0PuZUqaft0iwBTm7.jpg",
-            "genre": "Documentaries",
-            "id": 689249,
-            "overview": "A documentary on why 'Money Heist' sparked a wave of enthusiasm around the world for a lovable group of thieves and their professor.",
-            "vote_average": 7.6,
-            "vote_count": 836
-        },
-        {
-            "backdrop_path": "/QbcdvIZMZImxiKH7dl4xKhT86B.jpg",
-            "poster_path": "/6pw0hMLsvbWfZQXQorIdGUnLApl.jpg",
-            "genre": "Documentaries",
-            "id": 871858,
-            "overview": "After a three-year hiatus from a full performance, and with concert venues shut down due to the pandemic, Bieber delivers an electrifying show to close out 2020 on the rooftop of the Beverly Hilton Hotel for 240 invited guests—and millions of fans across the globe watching via livestream. The film follows Bieber and his close-knit team in the month leading up to the show, as they rehearse and construct a monumental stage while adhering to strict health and safety protocols. The film also captures personal, self-shot moments between Bieber and his wife Hailey.",
-            "vote_average": 8.1,
-            "vote_count": 11
-        },
-        {
-            "backdrop_path": "/y1BomwRA41Cr8s69G9vVQRjwllp.jpg",
-            "poster_path": "/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg",
-            "genre": "Documentaries",
-            "id": 691179,
-            "overview": "The cast of Friends reunites for a once-in-a-lifetime celebration of the hit series, an unforgettable evening filled with iconic memories, uncontrollable laughter, happy tears, and special guests.",
-            "vote_average": 8.2,
-            "vote_count": 695
-        },
-        {
-            "backdrop_path": "/wWMwNchgk8YGzmPbH4s9YxLtghg.jpg",
-            "poster_path": "/nxSdUi8OZZYerwjBRbbFT3cRZ3T.jpg",
-            "genre": "Documentaries",
-            "id": 691582,
-            "overview": "Remember and relive the songs that moved you from the movie Coco.",
-            "vote_average": 6.6,
-            "vote_count": 11
-        },
-        {
-            "backdrop_path": "/dZ1sOBUIrgX4iIEKjo6GiQpUMiL.jpg",
-            "poster_path": "/uoQmK7FRXNIQa7sikGg1xM0QaN9.jpg",
-            "genre": "Documentaries",
-            "id": 61927,
-            "overview": "Journalist Fabian Burstein looks behind the curtains of the porn industry. Starting in Budapest he heads westwards to explore a new world on its victory march rooted deeply in Austria. On this journey he meets the heroes and leading actors of this story: Austrians Mick Blue, Renee Pornero and Thomas Janisch. Porno Unplugged follows its native porn stars to where their lives happen. From east to west...",
-            "vote_average": 6.2,
-            "vote_count": 33
-        },
-        {
-            "backdrop_path": "/nrVj5eQAHaIaHgIaliMzrCKAJ80.jpg",
-            "poster_path": "/kU3EJpMLrGrrzcZ0oIgBiFvXbpj.jpg",
-            "genre": "Documentaries",
-            "id": 853088,
-            "overview": "Fresh off the heels of her brand-new album, \"Happier Than Ever,\" this cinematic concert experience features an intimate performance of every song in the album's sequential order – for the first and only time – from the stage of the legendary Hollywood Bowl.",
-            "vote_average": 7.9,
-            "vote_count": 56
-        },
-        {
+            "name": "50 Greatest Harry Potter Moments",
             "backdrop_path": "/4LOxoeZWt5wr9mooxEZRFK96lDd.jpg",
             "poster_path": "/g1xiBoLD6v3ZaXPa4QtuXiQeYKW.jpg",
             "genre": "Documentaries",
             "id": 483898,
             "overview": "To mark the release two weeks ago of the eighth and final movie in the series, Robbie Coltrane narrates a countdown of the movie franchise's best moments. From Harry's first meeting with Ron and Hermione aboard the Hogwarts Express through to magical mysteries.",
             "vote_average": 7.9,
-            "vote_count": 37
+            "vote_count": 38
         },
         {
-            "backdrop_path": "/1Gf5YdhlJ1G7Tf7WkSRrs6ssZ3G.jpg",
-            "poster_path": "/kqB0fF7VlODmw1exH4iDZHGUiVI.jpg",
+            "name": "The Legacy of Chucky",
+            "backdrop_path": null,
+            "poster_path": "/bRYEP7gdMi8lqlzT5csXpKTJaQ5.jpg",
             "genre": "Documentaries",
-            "id": 24593,
-            "overview": "For a book project, photographer Timothy Greenfield-Sanders took photographs of 30 stars of adult movies, each pair of photographs in the same pose, clothed and nude. This film records the photo shoots and includes interviews with the performers and commentary from eight writers (and John Waters). The actors and writers discuss economics, nudity and exhibitionism, careers, and private lives.",
-            "vote_average": 4.9,
-            "vote_count": 62
+            "id": 854535,
+            "overview": "A celebration of the 30+ year legacy of the Child’s Play franchise and iconic character, Chucky, with never-before-seen interviews with franchise creator and actors.",
+            "vote_average": 5.4,
+            "vote_count": 5
         },
         {
-            "backdrop_path": "/pOF3uaktOkymva8HF1WDKfG3W39.jpg",
-            "poster_path": "/9yUFnLw5KkcinnWUzGx8Fll28BN.jpg",
+            "name": "Spider-Man 2: Making the Amazing",
+            "backdrop_path": "/rd8Ji5TbiTBNDQI7SSUYBv9XHLJ.jpg",
+            "poster_path": "/3oF3GbxSSQxO9rWjrUjwAFi1fSF.jpg",
             "genre": "Documentaries",
-            "id": 819500,
-            "overview": "Follows the story of three American teenage girls—each adopted from China—who discover they are blood-related cousins on 23andMe. Their online meeting inspires the young women to confront the burning questions they have about their lost history.",
-            "vote_average": 7.4,
-            "vote_count": 16
+            "id": 470035,
+            "overview": "A comprehensive 12-part documentary on the making of \"Spider-Man 2,\" covering everything from pre-production to premiere.",
+            "vote_average": 6.5,
+            "vote_count": 30
         },
         {
+            "name": "NARUTO to BORUTO The Live 2019",
             "backdrop_path": "/eGa0w1EbNnb2wF696NVbF65IR4Y.jpg",
             "poster_path": "/8OkxtHotJnegiBbWQSz8fD60NEc.jpg",
             "genre": "Documentaries",
@@ -1435,15 +1515,27 @@
             "vote_count": 19
         },
         {
-            "backdrop_path": "/b99uYG1CsFn5JuJb4o7v19OEQEy.jpg",
-            "poster_path": "/3Y1bV9Lw2xJZJK6yJlycoyM2WNV.jpg",
+            "name": "Thinking XXX",
+            "backdrop_path": "/1Gf5YdhlJ1G7Tf7WkSRrs6ssZ3G.jpg",
+            "poster_path": "/kqB0fF7VlODmw1exH4iDZHGUiVI.jpg",
             "genre": "Documentaries",
-            "id": 872537,
-            "overview": "Activists and volunteers work through the darkest days of 2020, galvanizing social change amidst chaos as governments start to fail local communities. This epic, globally spanning and deeply passionate documentary serves as a clarion call that great change can be born of crisis.",
-            "vote_average": 5.3,
-            "vote_count": 3
+            "id": 24593,
+            "overview": "For a book project, photographer Timothy Greenfield-Sanders took photographs of 30 stars of adult movies, each pair of photographs in the same pose, clothed and nude. This film records the photo shoots and includes interviews with the performers and commentary from eight writers (and John Waters). The actors and writers discuss economics, nudity and exhibitionism, careers, and private lives.",
+            "vote_average": 5,
+            "vote_count": 64
         },
         {
+            "name": "Friends: The Reunion",
+            "backdrop_path": "/y1BomwRA41Cr8s69G9vVQRjwllp.jpg",
+            "poster_path": "/bT3c4TSOP8vBmMoXZRDPTII6eDa.jpg",
+            "genre": "Documentaries",
+            "id": 691179,
+            "overview": "The cast of Friends reunites for a once-in-a-lifetime celebration of the hit series, an unforgettable evening filled with iconic memories, uncontrollable laughter, happy tears, and special guests.",
+            "vote_average": 8.2,
+            "vote_count": 714
+        },
+        {
+            "name": "Héctor El Father: Conocerás la verdad",
             "backdrop_path": "/chKGRT7RjkHWlU0hRFQeJMx2Bra.jpg",
             "poster_path": "/tkP0FzEivLxsUYt8BlaL8Sh7ceY.jpg",
             "genre": "Documentaries",
@@ -1453,31 +1545,74 @@
             "vote_count": 84
         },
         {
-            "backdrop_path": "/7OlCmUwpJzJepUaOZ0n6oiCbNMP.jpg",
-            "poster_path": "/kTqRbjRIA6B1RbBaoLV098kwtXa.jpg",
+            "name": "Justin Bieber: Our World",
+            "backdrop_path": "/QbcdvIZMZImxiKH7dl4xKhT86B.jpg",
+            "poster_path": "/iCzzCUgsFSlaEbgKKmJttSAUXGr.jpg",
             "genre": "Documentaries",
-            "id": 128748,
-            "overview": "Curse of the Blair Witch is a documentary about the Blair Witch legend and the three filmmakers who disappeared in October of 1999. It first aired on the Sci-Fi Channel on July 11, 1999 as a promotional prelude to the release of The Blair Witch Project on July 30, 1999.",
-            "vote_average": 6.2,
-            "vote_count": 69
+            "id": 871858,
+            "overview": "After a three-year hiatus from a full performance, and with concert venues shut down due to the pandemic, Bieber delivers an electrifying show to close out 2020 on the rooftop of the Beverly Hilton Hotel for 240 invited guests—and millions of fans across the globe watching via livestream. The film follows Bieber and his close-knit team in the month leading up to the show, as they rehearse and construct a monumental stage while adhering to strict health and safety protocols. The film also captures personal, self-shot moments between Bieber and his wife Hailey.",
+            "vote_average": 7.5,
+            "vote_count": 13
         },
         {
-            "backdrop_path": "/ta1KuiThmEqVkW2kvOeOHmKIpmn.jpg",
-            "poster_path": "/ueLwOGA5hsOzuoY25oZfFLMHZLS.jpg",
+            "name": "Camp Confidential: America's Secret Nazis",
+            "backdrop_path": "/x3kWhf5FrXQKyRnIzCnSqQvGsP7.jpg",
+            "poster_path": "/eOwaUeFNsQt5ALBfZNPye33vBrS.jpg",
             "genre": "Documentaries",
-            "id": 16290,
-            "overview": "Johnny Knoxville, Bam Margera, Steve-O, Wee Man and the rest of their fearless and foolhardy friends take part in another round of outrageous pranks and stunts. In addition to standing in the path of a charging bull, launching themselves into the air and crashing through various objects, the guys perform in segments such as \"Sweatsuit Cocktail,\" \"Beehive Tetherball\" and \"Lamborghini Tooth Pull.\"",
+            "id": 888910,
+            "overview": "Camp Confidential: America's Secret Nazis, is a documentary short featuring animation that  focuses on the story of a top secret POW camp that was classified for over 5 decades. In the midst of WWII, a group of young Jewish refugees are assigned to guard a top secret POW camp near Washington D.C. The Jewish soldiers soon discover that their prisoners are no other than Hitler's top scientists - What starts out as an intelligence mission to gather information from the Nazis, soon gets a shocking twist when the Jewish soldiers are tasked with a very different mission altogether. A mission that would question their moral values - exposing a dark secret from America's past.",
             "vote_average": 6.5,
-            "vote_count": 1006
+            "vote_count": 8
         },
         {
-            "backdrop_path": null,
-            "poster_path": "/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+            "name": "Porno Unplugged",
+            "backdrop_path": "/dZ1sOBUIrgX4iIEKjo6GiQpUMiL.jpg",
+            "poster_path": "/uoQmK7FRXNIQa7sikGg1xM0QaN9.jpg",
             "genre": "Documentaries",
-            "id": 842096,
-            "overview": "A journey across the United States to explore the story of the Civil War of Americans from President Obama's final year in office through the present.",
-            "vote_average": 2,
-            "vote_count": 1
+            "id": 61927,
+            "overview": "Journalist Fabian Burstein looks behind the curtains of the porn industry. Starting in Budapest he heads westwards to explore a new world on its victory march rooted deeply in Austria. On this journey he meets the heroes and leading actors of this story: Austrians Mick Blue, Renee Pornero and Thomas Janisch. Porno Unplugged follows its native porn stars to where their lives happen. From east to west...",
+            "vote_average": 6.2,
+            "vote_count": 33
+        },
+        {
+            "name": "Wheel of Time",
+            "backdrop_path": "/n2SCdNZoa154yWIG23S9nO2vwpM.jpg",
+            "poster_path": "/d26W3zIQXucyHU6s98DVyOVlqV1.jpg",
+            "genre": "Documentaries",
+            "id": 51311,
+            "overview": "Wheel of Time is Werner Herzog's photographed look at the largest Buddhist ritual in Bodh Gaya, India.",
+            "vote_average": 6.6,
+            "vote_count": 28
+        },
+        {
+            "name": "Diego Maradona",
+            "backdrop_path": "/lFb1Ey6HqCdc2D74Zt5kr7EpQKT.jpg",
+            "poster_path": "/3eBZxi0xcXBnEYq4m4YTVf0eHWX.jpg",
+            "genre": "Documentaries",
+            "id": 536841,
+            "overview": "Constructed from over 500 hours of never-before-seen footage, this documentary centers on the personal life and career of the controversial football player Diego Maradona who played for SSC Napoli and Argentina in the 1980s.",
+            "vote_average": 7.5,
+            "vote_count": 303
+        },
+        {
+            "name": "Procession",
+            "backdrop_path": "/mFebVehvN5FvhRR9QUFzorG0R4E.jpg",
+            "poster_path": "/1mRucSorKd2Z1WdizhJc3rrqyA8.jpg",
+            "genre": "Documentaries",
+            "id": 869623,
+            "overview": "Six men who were sexually abused by Catholic clergy as boys find empowerment by creating short films inspired by their trauma.",
+            "vote_average": 6,
+            "vote_count": 3
+        },
+        {
+            "name": "Introducing Chucky: The Making of Child's Play",
+            "backdrop_path": null,
+            "poster_path": "/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg",
+            "genre": "Documentaries",
+            "id": 706545,
+            "overview": "A vintage featurette about the making of Child's Play (1988).",
+            "vote_average": 5.8,
+            "vote_count": 4
         }
     ]
 }
