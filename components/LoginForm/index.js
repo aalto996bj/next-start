@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from 'next/router'
 import axios from "axios";
-import { Form, Input } from "@alifd/next"
+import { Form, Input, Message } from "@alifd/next"
 import styles from './index.module.css'
 
 const FormItem = Form.Item;
@@ -16,14 +16,15 @@ const formItemLayout = {
 
 const LoginForm = () => {
     const router = useRouter();
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [user, setUser] = useState('');
 
     useEffect(() => {
-        // console.log(isLoggedIn);
-        window.localStorage.setItem('loggedUser', isLoggedIn);
         const loggedUser = window.localStorage.getItem('loggedUser');
-        // console.log(loggedUser);
-    })
+        if (loggedUser) {
+            const user = JSON.parse(loggedUser)
+            setUser(user)
+        }
+    }, [])
 
     const handleLogin = async (values, errors) => {
         console.log(values, errors);
@@ -34,18 +35,23 @@ const LoginForm = () => {
             password: password 
         }).then((res) => {
             console.log(res);
+            window.localStorage.setItem(
+                'loggedUser', JSON.stringify(res.data)
+            )
+            setUser(JSON.stringify(res.data))
+            Message.success("Login success!")
         })
         .catch (function (err) {
             console.log(err);
+            Message.error("Your credentials are incorrect, please try again!")
         });
-        setIsLoggedIn(true);
     }
 
     return (
         <div className={styles.content}>
             <h2 className={styles.login}>Login to application</h2>
             {
-                !isLoggedIn ?
+                !user ?
             <Form style={{ width: "60%" }} {...formItemLayout} colon>
                 <FormItem
                     name="username"
