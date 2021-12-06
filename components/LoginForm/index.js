@@ -27,7 +27,7 @@ const LoginForm = () => {
 
     const handleLogin = async (values, errors) => {
         console.log(values, errors);
-        const username = values.baseUser;
+        const username = values.username;
         const password = values.password;
         const loginRes = await axios.post(router.basePath + '/api/login', {
             username: username, 
