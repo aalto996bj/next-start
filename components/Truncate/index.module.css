@@ -1,0 +1,10 @@
+.truncateBody {
+  overflow: hidden;
+  /* display: block; */
+  text-overflow: ellipsis; 
+  white-space: pre-wrap;
+  line-height: 20px;
+  font-size: 16px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

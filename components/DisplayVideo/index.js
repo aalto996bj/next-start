@@ -3,11 +3,13 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { FreeMode, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Slider } from '@alifd/next';
+import { Card, Rating, Slider } from '@alifd/next';
 import useWindowSize from '../../hooks/useWindowSize';
 import styles from './index.module.css';
 import styled from 'styled-components'
 import 'swiper/css';
+import { useRouter } from 'next/router';
+import TextTruncate from 'react-text-truncate';
 
 // install Swiper components
 SwiperCore.use([FreeMode, Navigation, Pagination, Scrollbar, A11y])
@@ -23,6 +25,7 @@ const DIV = styled.div`
     `
 
 const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
+    const router = useRouter()
     const windowSize = useWindowSize();
     const { width } = windowSize;
     const slidesToShow = width >= 1400 ? (isNetflixMovies ? 5 : 4) : width >= 1170 ? (isNetflixMovies ? 4 : 3) : width >= 940 ? (isNetflixMovies ? 3 : 2) : (isNetflixMovies ? 2 : 1);
@@ -30,63 +33,9 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
     return (
         <>
             {!isLoading ?
-            <div className="loaded">
+            <Card className="loaded" free style={{ marginBottom: 16}}>
+                <Card.Content>
                 <h1>{title}</h1>
-                {/* <Swiper
-                    navigation={true}
-                    grabCursor={false}
-                    loop={true}
-                    loopAdditionalSlides={
-                        width >= 1378 ? 4 : width >= 998 ? 3 : width >= 625 ? 2 : 2
-                    }
-                    // spaceBetween={20}
-                    breakpoints={{
-                        1378: {
-                            slidesPerView: 5,
-                            slidesPerGroup: 5,
-                        },
-                        998: {
-                            slidesPerView: 4,
-                            slidesPerGroup: 4,
-                        },
-                        625: {
-                            slidesPerView: 3,
-                            slidesPerGroup: 3,
-                        },
-                        0: {
-                            slidesPerView: 2,
-                            slidesPerGroup: 2,
-                        },
-                    }}
-                    // freeMode={true}
-                    preventClicksPropagation={true}
-                    preventClicks={true}
-                    scrollbar={{ draggable: false, hide: true }}
-                    slideToClickedSlide={false}
-                    pagination={{ clickable: true }}
-                >
-                    {videos &&
-                        videos.map((video, idx) => {
-                            let videoImageUrl = isNetflixMovies
-                                ? `https://image.tmdb.org/t/p/original/${video.poster_path}`
-                                : `https://image.tmdb.org/t/p/w500/${video.backdrop_path}`
-
-                            if (video.poster_path && video.backdrop_path !== null) {
-                                return (
-                                    <SwiperSlide
-                                        key={idx}
-                                    >
-                                        <img
-                                            height={isNetflixMovies ? 360 : 165}
-                                            width={isNetflixMovies ? 240 : 300}
-                                            src={videoImageUrl}
-                                            alt='opps...'
-                                        />
-                                    </SwiperSlide>
-                                )
-                            }
-                        })}
-                </Swiper> */}
                 <Slider 
                     className={styles.center}
                     arrowPosition="outer"
@@ -112,15 +61,28 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                                 return (
                                     <div key={video.id}>
                                         <Img
+                                            className={styles.cursorPointer}
+                                            onClick={()=>router.push(`video/${video.id}`)}
                                             height={isNetflixMovies ? 360 : 165}
                                             width={isNetflixMovies ? 240 : 300}
                                             src={videoImageUrl}
                                             alt='opps...'
                                         /> <br />
-                                        <div className={isNetflixMovies ? styles.wrapNet : styles.wrap}>
-                                            <span>Name: {video.name}</span><br />
-                                            <span>Overview: {video.overview}</span><br />
-                                            <span>Rate: {video.vote_average}</span><br />
+                                        <div 
+                                            className={isNetflixMovies ? styles.wrapNet : styles.wrap} 
+                                            onClick={()=>router.push(`video/${video.id}`)}
+                                            className={styles.cursorPointer}
+                                        >
+                                            <span className={styles.videoTitle}>{video.name}</span><br />
+                                            <div style={{width: isNetflixMovies ? 250 : 300, height:80, fontSize: 14, textAlign: 'justify', textJustify: 'inter-word'}} >
+                                                <TextTruncate
+                                                    line={4}
+                                                    element="div"
+                                                    truncateText="..."
+                                                    text={video.overview}
+                                                />
+                                            </div>
+                                            <div style={{lineHeight: '24px', height: 26}}>Rate: <Rating value={video.vote_average/2} allowHalf/> {video.vote_average}</div>
                                             <span>Heat: {video.vote_count}</span><br />
                                         </div>
                                     </div>
@@ -128,7 +90,8 @@ const DisplayVideo = ({ isLoading, title, isNetflixMovies, videos }) => {
                             }
                         })}
                 </Slider>
-            </div>
+                </Card.Content>
+            </Card>
             :
             <h1 className="loading">{title} is loading...</h1>
             }

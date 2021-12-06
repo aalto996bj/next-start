@@ -30,3 +30,13 @@
   width: 300px;
   padding: 3px;
 }
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.videoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}
