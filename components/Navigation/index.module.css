@@ -12,3 +12,8 @@
   background: white !important;
   z-index: 1;
 }
+
+.avatar {
+  margin: 0 16px;
+  cursor: pointer;
+}

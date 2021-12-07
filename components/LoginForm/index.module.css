@@ -1,9 +1,18 @@
 .login {
-  padding: 10px 15px
+  padding: 10px 15px;
+  width: 480px;
 }
 
 .content {
   margin: 40px 15px;
   display: flex;
   flex-direction: column;
+  width: 480px;
+  margin: 60px auto;
+  padding: 16px;
+}
+
+.signout {
+  width: 50%;
+  margin: 0 auto 32px;
 }

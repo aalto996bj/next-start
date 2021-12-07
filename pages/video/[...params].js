@@ -30,7 +30,6 @@ export default function VideoDetail(props){
   const router = useRouter()
   const size = useWindowSize()
   return (<div className="app_container video_detail">
-    <Navigation />
     { 
       !!router.query.params ? <div className="app_content">
         <VideoBox size={getVideoAreaSize(size)} params={router.query.params}/>

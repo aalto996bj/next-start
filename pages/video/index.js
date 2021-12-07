@@ -11,7 +11,6 @@ export default function Videos(){
   // console.log(router)
   //console.log(window.location)
   return (<div className="app_container video_page">
-    <Navigation />
     <div className="video_content">
       <VideoLists />
     </div>

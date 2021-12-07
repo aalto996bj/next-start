@@ -1,6 +1,6 @@
-import Navigation from "../components/Navigation";
 import { useRouter } from 'next/router';
-import LoginForm from '../components/LoginForm';
+import dynamic from 'next/dynamic'
+const LoginForm = dynamic(() => import('../../components/LoginForm'), { ssr: true})
 
 export default function Home(props){
   const router = useRouter()
@@ -9,4 +9,8 @@ export default function Home(props){
   <div className="app_container home_page">
     <LoginForm {...props}/>
   </div>)
+}
+
+export async function getServerSideProps({ req }) {
+  return { props: {   } };
 }
