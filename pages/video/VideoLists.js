@@ -7,6 +7,7 @@ export default function VideoLists() {
     // const [netflixOriginals, netflixOriginalsLoading] = useRequest(videoGenres.NetflixOriginals);
     // console.log(netflixOriginals.results);
     // const [trending, trendingLoading] = useRequest(videoGenres.Trending);
+    // console.log(trending.results);
     // const [topRated, topRatedLoading] = useRequest(videoGenres.TopRated);
     // const [actionMovies, actionMoviesLoading] = useRequest(videoGenres.ActionMovies);
     // const [comedyMovies, comedyMoviesLoading] = useRequest(videoGenres.ComedyMovies);
