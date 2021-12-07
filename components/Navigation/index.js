@@ -14,16 +14,18 @@ export default function Navigation({userstate, setUserstate}){
       const user = JSON.parse(localStorage.getItem('loggedUser'))
       console.log( 'Header state: ' ,user , user?.data ? (now - user.data.loginTime) : undefined)
       hasLogged = user && ((now - user.data.loginTime) < 60000)
+      // setUserstate(user)
     }
     return hasLogged
   }
   useEffect(() => {
     checkLogin()
+    setUserstate(JSON.parse(localStorage.getItem('loggedUser')))
   }, [])
 
   const userProfile = <div className={styles.avatar}>
     {
-      checkLogin() ? <Avatar size='small' src={userstate?.data?.avatar}/> : <a href='/'>Sign in</a>
+      checkLogin() ? <Avatar size='small' src={userstate?.data?.avatar}/> : <Link href="/">Sign in</Link>
     }
   </div>
 
